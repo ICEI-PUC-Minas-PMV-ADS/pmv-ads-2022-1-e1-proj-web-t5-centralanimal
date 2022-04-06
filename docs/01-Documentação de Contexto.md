@@ -10,10 +10,17 @@ Este projeto visa resolver o problema da falta de informação de assuntos relac
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
+O objetivo geral é a criação de uma plataforma que apresente soluções de forma
+centralizada e organizada para donos de pets, onde poderão contar com a avaliação de
+outros usuários para aumentar a credibilidade das informações apresentadas.
+Como objetivos específicos, podemos ressaltar:
+● Disponibilizar a divulgação de clínicas veterinárias e de pessoas que trabalham com
+pets;
+● Criar um espaço onde os donos de pets possam interagir através de avaliações
+recomendando os profissionais que encontraram através da plataforma;
+● Ajudar animais que possam estar perdidos ou que procuram um lar.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
