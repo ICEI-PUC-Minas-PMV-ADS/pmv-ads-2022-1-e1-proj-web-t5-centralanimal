@@ -1,6 +1,6 @@
 # TÍTULO DO PROJETO
 
- Análise Desenvolvimento de sistemas 
+Análise Desenvolvimento de sistemas
 
 `DISCIPLINA`
 
@@ -10,16 +10,16 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Marcus Vinicius Marinho Ferreira
-* Amanda Eufrasio Cacholi
-* Daniel Silva dos Santos
-* Sandra Matos Rodrigues
-* Adriano Henrique Xavier Rodrigues
-* Rosalvo Henrique Cordeiro de Souza Iscold
+- Marcus Vinicius Marinho Ferreira
+- Amanda Eufrasio Cacholi
+- Daniel Silva dos Santos
+- Sandra Matos Rodrigues
+- Rosalvo Henrique Cordeiro de Souza Iscold
+- Adriano Henrique Xavier Rodrigues
 
 ## Orientador
 
-* Nome completo do professor 1
+- Simone Alves Nogueira
 
 ## Instruções de utilização
 
