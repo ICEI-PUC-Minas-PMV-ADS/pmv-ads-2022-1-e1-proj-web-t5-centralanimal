@@ -1,6 +1,6 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+ Análise Desenvolvimento de sistemas 
 
 `DISCIPLINA`
 
