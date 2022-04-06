@@ -29,10 +29,17 @@ recomendando os profissionais que encontraram através da plataforma;
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
+De acordo com a Associação Brasileira da Indústria Para Animais de Estimação (BINPET),
+o Brasil é o terceiro país com maior população total de animais de estimação, tendo a
+3 segunda maior população de cães e gatos, sendo 54,2 milhões cães e 23,9 milhões de
+gatos.
+Mesmo com a crise, o mercado pet continua a se desenvolver pelo reconhecimento do
+benefício da interação entre os seres humanos e os animais na saúde de ambos.
+Houve um crescimento no número de pessoas que optaram por adotarem animais ao invés
+de terem filhos, por causa dessa proximidade, os tutores têm mais interesse em investir em
+seus pets.
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
