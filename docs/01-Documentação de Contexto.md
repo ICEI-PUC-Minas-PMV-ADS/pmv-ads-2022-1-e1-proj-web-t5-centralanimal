@@ -14,10 +14,13 @@ O objetivo geral é a criação de uma plataforma que apresente soluções de fo
 centralizada e organizada para donos de pets, onde poderão contar com a avaliação de
 outros usuários para aumentar a credibilidade das informações apresentadas.
 Como objetivos específicos, podemos ressaltar:
+
 ● Disponibilizar a divulgação de clínicas veterinárias e de pessoas que trabalham com
 pets;
+
 ● Criar um espaço onde os donos de pets possam interagir através de avaliações
 recomendando os profissionais que encontraram através da plataforma;
+
 ● Ajudar animais que possam estar perdidos ou que procuram um lar.
 
 
