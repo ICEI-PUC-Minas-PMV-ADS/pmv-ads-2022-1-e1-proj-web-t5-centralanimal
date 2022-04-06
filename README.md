@@ -10,8 +10,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
+* Marcus Vinicius Marinho Ferreira
+* Amanda Eufrasio Cacholi
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
