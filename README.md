@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Marcus Vinicius Marinho Ferreira
 * Amanda Eufrasio Cacholi
-* Nome completo do aluno 3
+* Daniel Silva dos Santos
 * Nome completo do aluno 4
 
 ## Orientador
