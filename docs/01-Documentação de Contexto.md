@@ -1,6 +1,19 @@
 # Introdução
+Com o passar do tempo, cada vez mais os animais de estimação vêm ganhando um espaço
+muito importante no centro das famílias e têm sido vistos como filhos. No Brasil, de acordo
+com dados do IBGE, há um cachorro para cada seis habitantes, e os tutores já são
+chamados de “pais de pets”.
+É dessa realidade que surge a problemática deste projeto, apesar de adorados, há uma
+deficiência de lugares onde se possam encontrar informações para o melhor cuidado dos
+pets, como um bom veterinário, um cuidador, um lugar onde os animais possam ficar em
+segurança quando seus tutores precisam se ausentar.
+Por serem como filhos, pode haver um receio de deixar os animais aos cuidados de
+desconhecidos, e nem sempre a pessoa possui uma rede de confiança para conseguir
+sugestões. Se as pessoas procuram as melhores formas de cuidarem de si, por que seria
+diferente com seus pets? Um outro problema que tutores encontram é o risco de seu pet se
+perder, o que fazer nesse momento?
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+
 
 ## Problema
 Este projeto visa resolver o problema da falta de informação de assuntos relacionados à animais de estimação que pode ser enfrentado por pessoas que são recém-chegadas em novas cidades e não possuem muitas informações sobre o local, pessoas que podem estarà procura de um animal de estimação para adotar, ou quem precisa de um local para anunciar que está em busca de seu animal de estimação que se perdeu.
