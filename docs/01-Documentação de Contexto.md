@@ -15,15 +15,9 @@ sugestões. Se as pessoas procuram as melhores formas de cuidarem de si, por que
 diferente com seus pets? Um outro problema que tutores encontram é o risco de seu pet se
 perder, o que fazer nesse momento?
 
-
-
 ## Problema
 Este projeto visa resolver o problema da falta de informação de assuntos relacionados à animais de estimação que pode ser enfrentado por pessoas que são recém-chegadas em novas cidades e não possuem muitas informações sobre o local, pessoas que podem estarà procura de um animal de estimação para adotar, ou quem precisa de um local para anunciar que está em busca de seu animal de estimação que se perdeu.
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
+> 
 ## Objetivos
 O objetivo geral é a criação de uma plataforma que apresente soluções de forma
 centralizada e organizada para donos de pets, onde poderão contar com a avaliação de
@@ -38,11 +32,6 @@ recomendando os profissionais que encontraram através da plataforma;
 
 ● Ajudar animais que possam estar perdidos ou que procuram um lar.
 
-
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 De acordo com a Associação Brasileira da Indústria Para Animais de Estimação (BINPET),
 o Brasil é o terceiro país com maior população total de animais de estimação, tendo a
@@ -51,22 +40,27 @@ gatos.
 
 Mesmo com a crise, o mercado pet continua a se desenvolver pelo reconhecimento do
 benefício da interação entre os seres humanos e os animais na saúde de ambos.
+
 Houve um crescimento no número de pessoas que optaram por adotarem animais ao invés
 de terem filhos, por causa dessa proximidade, os tutores têm mais interesse em investir em
 seus pets.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
+Em uma pesquisa feito pelo Serviço de Proteção ao Crédito (SPC Brasil) e pela
+Confederação Nacional de Dirigentes Lojistas (CDNL), foi levantado que o principal gasto
+com animais de estimação é com a alimentação, gastos como shampoos e
+condicionadores, medicamentos e brinquedos tiveram um grande destaque.
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Vacinação, idas ao veterinário e pet shops também apresentaram números expressivos,
+sendo 63%, 44% e 37% respectivamente. Também há uma preocupação com a
+humanização do tratamento com os animais de estimação.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Um outro ponto interessante levantado pela pesquisa, é que 53% dos entrevistados
+relataram procurar lojas de bairro especializadas, contra 20% que mencionaram grandes
+redes de pet e 16%, supermercados. O motivo relatado na pesquisa foram preço 59%,
+qualidade 49% e confiança 44%.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+De acordo com a pesquisa, o perfil dos donos de pets é dividido entre homens e mulheres,
+pouco mais da metade (54%) estão nas classes C, D e E, e na faixa etária dos 25 aos 44
+anos (58%).
+
