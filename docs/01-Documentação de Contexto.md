@@ -3,10 +3,12 @@ Com o passar do tempo, cada vez mais os animais de estimação vêm ganhando um 
 muito importante no centro das famílias e têm sido vistos como filhos. No Brasil, de acordo
 com dados do IBGE, há um cachorro para cada seis habitantes, e os tutores já são
 chamados de “pais de pets”.
+
 É dessa realidade que surge a problemática deste projeto, apesar de adorados, há uma
 deficiência de lugares onde se possam encontrar informações para o melhor cuidado dos
 pets, como um bom veterinário, um cuidador, um lugar onde os animais possam ficar em
 segurança quando seus tutores precisam se ausentar.
+
 Por serem como filhos, pode haver um receio de deixar os animais aos cuidados de
 desconhecidos, e nem sempre a pessoa possui uma rede de confiança para conseguir
 sugestões. Se as pessoas procuram as melhores formas de cuidarem de si, por que seria
@@ -46,13 +48,12 @@ De acordo com a Associação Brasileira da Indústria Para Animais de Estimaçã
 o Brasil é o terceiro país com maior população total de animais de estimação, tendo a
 3 segunda maior população de cães e gatos, sendo 54,2 milhões cães e 23,9 milhões de
 gatos.
+
 Mesmo com a crise, o mercado pet continua a se desenvolver pelo reconhecimento do
 benefício da interação entre os seres humanos e os animais na saúde de ambos.
 Houve um crescimento no número de pessoas que optaram por adotarem animais ao invés
 de terem filhos, por causa dessa proximidade, os tutores têm mais interesse em investir em
 seus pets.
-
-
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
