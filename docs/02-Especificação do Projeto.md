@@ -10,7 +10,26 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links: 
+
+Persona 1:
+Luana Alves tem 27 anos é assistente social. Ela tem uma cachorrinha e representa o grupo de pessoas  que gostam de viajar, mas acabam encontrando dificuldades na hora de achar um hotel para pets confiável, ou um cuidador.
+
+Persona 2:
+Pedro Carvalho, tem 33 anos, é empresário dono de uma hamburgueria. Ele acabou de adotar um gatinho e representa o grupo de pessoas que ainda não conhecem lugares confiáveis para cuidar dos seus animais, e usaria a plataforma para encontrar um bom veterinário.
+
+Persona 3:
+Ana Paula Souza, tem 40 anos, é advogada. Os filhos de Ana Paula tem insistido com ela para adotar um cachorro, mas ela tem tido dificuldades em achar lugares onde possa adotar. Ela representa as pessoas que procuram animais que estejam para adoção.
+
+Persona 4:
+Werberson Costa, ten 28 anos, é programador. Ele se preocupa com a causa animal, as vezes resgata animais e tenta achar um novo lar para eles. Werberson representa as ONGS, ou pessoas que encontram animais em situação vulnerável e querem colocá-los em um lar permanente.
+
+Persona 5:
+Fabiola Ferreira, tem 30 anos, é médica veterinária. Ela representa o público veterinário que busca expandir o alcance de seu trabalho, ela usaria a plataforma para divulgar seus serviços.
+
+Persona 6:
+Gabriel Fernandes, tem 40 anos, é empresário com serviços voltados para pets, no caso dele, ele é dono do pet shop "Pet Feliz", busca alcançar um público maior.
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -28,8 +47,34 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Luana Alves         | Ter um local de confiança para     |Poder                                   ||                    |  deixar meu pet, independentemente |planejar minhas viagens com             |
+|                    | do local que estou.                |tranquilidade sabendo                   ||                    |                                    |que meu pet estará em um                |
+|                    |                                    |local de qualidade e confortável        |
+|--------------------|------------------------------------|----------------------------------------|
+|Pedro Carvalho      |  Saber oos melhores lugares        | Levar meu gato para realizar qualquer  ||                    |  para cuidar do meu gato.          | procedimento, sabendo que ele terá o   |
+|                    |                                    | nelhor atendimento.                    |
+|                    |                                    |                                        |  
+|--------------------|------------------------------------|----------------------------------------|
+|Ana Paula Souza     |  Saber onde adotar animais de      | Dar aos meus filhos a oportunidade de  ||                    | estimação.                         | terem um pet.                          |
+|                    |                                    |                                        |
+|--------------------------------------------------------------------------------------------------|
+|                    |                                    |                                        |
+|Weberson Costa      |  Conectar-me com pessoas dispostas | Doar os animais que cuido para pessoas ||                    |  a adotarem animais.               | interessadas.                          |
+|                    |                                    |                                        |
+|--------------------------------------------------------------------------------------------------|
+|                    |                                    |                                        |
+|                    |                                    |                                        |
+|Fabiola Ferreira    | Ter acesso a clientes interessados | Oferecer e divulgar serviços para      ||                    | em nossos serviços.                | clientes que desejam realizar          |
+|                    |                                    | procedimentos em seus animais de      |   |                    |                                    | estimação                              |
+|--------------------------------------------------------------------------------------------------|
+|                    |                                    |                                        |
+|                    |                                    |                                        |
+|Gabriel Fernandes   |  Conectar clientes que amam cuidar | Dar aos pets o melhor tratamento       ||                    |  de pets.                          | possível sem que os seus donos          |
+|                    |                                    | se preocupem com a falta de  qualidade.                                                                                     |
+|--------------------------------------------------------------------------------------------------|
+      
+                                             
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -46,11 +91,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|ID    | Descrição do Requisito               | Prioridade  |
+|------|--------------------------------------|             |
+|RF-001| A páginaprincia vai contar com cards |             |
+|       |com as descrições das soluções que   |             |
+|       | são oferecidas.                     | ALTA        | 
+----------------------------------------------|-------------|
+|RF-002| A página principal vai contar com    |             |
+|      |botões que levam às telas de cadasro  |             |
+|      |e login.                              |             |
+------------------------------------------------------------
+|RF-003|  Tela de cadastro onde usuários  ou   |ALTA         |
+|      | organizações poderão se cadastrar     |             |
+-------------------------------------------------------------|
+|RF-004| Tela de login de organiações e usuários| ALTA       |
+-------------------------------------------------------------
+|RF-005|A página inicial do usuário vai mostrar |            |
+|      |a list de ONGS,clínicas veerinárias,    |MÉDIA       |
+|      |hotéis para cachorro e cuidadores sepa- |            |
+|      |rados por áreas.                        |            |
+--------------------------------------------------------------
+|RF-006|  A página principal de cada organiza-   |            |
+|      |ção terá as próprias informações que     | MÉDIA      |
+|      | estão disponibilizadas no site,terá     |            |
+|      | também a opção de visuaizar os usuários |            |
+|      | cadastrados noo site.                   |            |
+--------------------------------------------------------------
+|RF-007| Os cadastros podem fazer edições em     | MÉDIA      |
+|      |seus perfis.                             |            |
 
 ### Requisitos não Funcionais
 
