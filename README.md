@@ -14,6 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Amanda Eufrasio Cacholi
 * Daniel Silva dos Santos
 * Nome completo do aluno 4
+* Sandra Matos Rodrigues
 
 ## Orientador
 

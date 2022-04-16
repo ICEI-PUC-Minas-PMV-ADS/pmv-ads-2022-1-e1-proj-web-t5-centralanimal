@@ -119,13 +119,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 --------------------------------------------------------------
 |RF-007| Os cadastros podem fazer edições em     | MÉDIA      |
 |      |seus perfis.                             |            |
+--------------------------------------------------------------
+|RF-008| Caixa de coentários de outros usuários  | MÉDIA      |
+|      | na página de cada organização, comen-   |            |
+|      |tários já feitos.                        |            |
+--------------------------------------------------------------
+|RF-009| Caixa de texto para os usuários         |MÉDIA       |
+|      |adcionarem comentários nas páginas das   |            |
+|      |organizações.                            |            |
+--------------------------------------------------------------
+|RF-010| Ranking de empresas por qualidade do     |BAIXA       |
+|      |serviço prestado.                         |            |
+--------------------------------------------------------------
+|RF-011| Ranking dos usuários baseados nas          |BAIXA      |
+|      |informações úteis que informam nos          |           |
+|      |comentarios, os outros usuáriosssss poderão |           |
+|      |avaliar o comentário como útil.             |           |
+----------------------------------------------------------------
+
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito  |Prioridade                                                     |
+|-------|-------------------------|---------------------------------------------------------------|
+|RNF-001| O site deve ser publicado em um ambiente aessível publicamente na internet(GitHub ouHeroku) | ALTA | 
+|RNF-002| O site deve ser compatível com os principais navegadores do mercdo (Chrome,Firefox,Microsoft Edge) | ALTA| 
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade;|MEDIA|
+|RNF-004| O site deverá ser responsivo permitindo a visualização em um celular de forma adequda;|BAIXA|
+|RNF-005| O site irá contar com autenticação de login para reforçar a segurança dentro da nossa plataforma;|BAIXA|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -146,10 +167,12 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                                |
+|--|--------------------------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre letivo.            |
+|02| O aplicativo deve se restringir ás tecnologias básicas da Web no Frontend|
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho.            |
+|--|--------------------------------------------------------------------------|
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
