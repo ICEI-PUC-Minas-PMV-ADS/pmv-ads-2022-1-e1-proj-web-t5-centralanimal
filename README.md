@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Marcus Vinicius Marinho Ferreira
+* Marcus Ferreira
 * Amanda Eufrasio Cacholi
 * Daniel Silva dos Santos
 * Sandra Matos Rodrigues
