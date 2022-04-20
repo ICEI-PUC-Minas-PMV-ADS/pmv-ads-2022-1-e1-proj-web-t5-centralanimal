@@ -19,7 +19,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-- Simone Alves Nogueira
+- Professora Simone Alves Nogueira
 
 ## Instruções de utilização
 
