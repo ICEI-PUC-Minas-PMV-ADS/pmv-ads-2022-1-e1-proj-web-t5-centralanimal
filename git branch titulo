@@ -1,0 +1,96 @@
+[33mcommit 50e9b8fc1f2897ef37c292034dc2e464fc5abfe6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 65a809f 1db3036
+Author: SandraMatosR7 <103084343+SandraMatosR7@users.noreply.github.com>
+Date:   Sat Apr 16 20:42:04 2022 -0300
+
+    Merge pull request #6 from ICEI-PUC-Minas-PMV-ADS/feature/preencherEspecificacaodoProjeto
+    
+    Feature/preencher especificacaodo projeto
+
+[33mcommit 1db3036f7d1a496f3e9b8ee6004c04a6c0e08c8f[m[33m ([m[1;31morigin/feature/preencherEspecificacaodoProjeto[m[33m)[m
+Merge: b183b7b 65a809f
+Author: SandraMatosR7 <sandrarodrigues.dev@outlook.com>
+Date:   Sat Apr 16 20:40:31 2022 -0300
+
+    Merge branch 'main' into feature/preencherEspecificacaodoProjeto
+
+[33mcommit b183b7bca237d0ab3ec9c0f6a9764d7bd65c5e1f[m
+Author: SandraMatosR7 <sandrarodrigues.dev@outlook.com>
+Date:   Sat Apr 16 20:31:35 2022 -0300
+
+    Atualizado com nome de integrante e especificação do projeto
+
+[33mcommit 65a809fd2ca63e447bd466075d97bf6cb8acaf3b[m
+Merge: 9bdf649 194afc5
+Author: SandraMatosR7 <103084343+SandraMatosR7@users.noreply.github.com>
+Date:   Tue Apr 12 09:46:39 2022 -0300
+
+    Merge pull request #3 from ICEI-PUC-Minas-PMV-ADS/feature/preencherEspecificacaodoProjeto
+    
+    Preenchendo especificação do projeto
+
+[33mcommit 194afc58660c38f56059e1ccd57e09e743fd35e9[m
+Author: SandraMatosR7 <sandrarodriues.dev@outlook.com>
+Date:   Tue Apr 12 09:33:14 2022 -0300
+
+    conclusao do preenchimento de especificacao do projeto
+
+[33mcommit 9bdf6494ab3a4898951dfeb808d5fca638b2dc00[m
+Author: Adripx <91165583+Adripx@users.noreply.github.com>
+Date:   Sun Apr 10 18:14:23 2022 -0300
+
+    Update README.md
+
+[33mcommit 283d45204489047875956d72de91a0219538932f[m
+Author: SandraMatosR7 <sandrarodrigues.dev@outlook.com>
+Date:   Thu Apr 7 11:04:47 2022 -0300
+
+    alteracao em especificacao do projeto
+
+[33mcommit 65ac8c69008f45aa800c07afc91550110e1cdb2f[m
+Author: Sandra Matos <sandra.matos@ufv.br>
+Date:   Wed Apr 6 20:24:57 2022 -0300
+
+     teste
+
+[33mcommit 5e73a83ea5d0a69c6d5c696331d560e1eed266eb[m
+Author: DanielSilva8383 <100876682+DanielSilva8383@users.noreply.github.com>
+Date:   Wed Apr 6 11:10:08 2022 -0300
+
+    Update 01-Documentação de Contexto.md
+
+[33mcommit 60315f287ead1e4dd7ebafae6875ee2f74745973[m
+Author: DanielSilva8383 <100876682+DanielSilva8383@users.noreply.github.com>
+Date:   Wed Apr 6 11:07:35 2022 -0300
+
+    Update 01-Documentação de Contexto.md
+
+[33mcommit dbfd22d6e3bb77f07bf64d97b539e56121a9eaf0[m
+Author: DanielSilva8383 <100876682+DanielSilva8383@users.noreply.github.com>
+Date:   Wed Apr 6 11:05:28 2022 -0300
+
+    Update 01-Documentação de Contexto.md
+
+[33mcommit 43ed18309d844142828d3f2e91057050449fd3bd[m
+Author: DanielSilva8383 <100876682+DanielSilva8383@users.noreply.github.com>
+Date:   Wed Apr 6 10:54:38 2022 -0300
+
+    Update README.md
+
+[33mcommit 938f5c7c6e521e44233f02a1c6c9a94c4fdb215c[m
+Author: DanielSilva8383 <100876682+DanielSilva8383@users.noreply.github.com>
+Date:   Wed Apr 6 10:36:49 2022 -0300
+
+    Update README.md
+
+[33mcommit 217fb055e971b50c2f9fe1102695e7de12910c97[m
+Author: Marcusvinimf <marcusvinimf@gmail.com>
+Date:   Tue Apr 5 22:31:35 2022 -0300
+
+    Teste de repositorio
+
+[33mcommit 3326b223adae6017ffe596e21830392900393773[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Wed Apr 6 01:05:21 2022 +0000
+
+    Initial commit

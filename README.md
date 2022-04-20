@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Daniel Silva dos Santos
 * Sandra Matos Rodrigues
 * Adriano Henrique Xavier Rodrigues
+* Rosalvo Henrique Cordeiro de Souza Iscold
 
 ## Orientador
 
