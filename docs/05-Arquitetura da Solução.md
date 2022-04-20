@@ -4,7 +4,7 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-O software será estruturado no "modelo C4" que significa contexto, conteiners, componentes e código. Tal modelo de diagramação visa combater ambiguidades e confusões.
+O software será estruturado no "modelo C4" que significa contexto, conteiners, componentes e código. Tal modelo de diagramação visa combater ambiguidades e confusões. etc
 
 
 
