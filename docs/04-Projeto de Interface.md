@@ -15,32 +15,32 @@ A tela da home informa brevemento tudo o que o site fornece aos usuários, e con
 
 ![Listagem de serviços sem estar logado](img/service-list-not-logged-in.png)
 
-Tela de listagem das organizações, dependendo de onde o usuário clicou. Essa tela será exibida mesmo quando os usuários não estiverem logados.
+- Tela de listagem das organizações, dependendo de onde o usuário clicou. Essa tela será exibida mesmo quando os usuários não estiverem logados.
 
 ![Página individual sem login](img/individual-page-not-logged.png)
 
-Tela onde será informações individuis com mais detalhes, poderá ser acessada ao clicar em cima de uma organização. Quando não estiver logado, o usuário não poderá visualizar, e nem deixar comentários.
+- Tela onde será informações individuis com mais detalhes, poderá ser acessada ao clicar em cima de uma organização. Quando não estiver logado, o usuário não poderá visualizar, e nem deixar comentários.
 
 ![Login e Cadastro](img/login.png)
 
-A tela de login e cadastro serão as mesmas para usuários e organizações, a diferenciação será feita com a opção "Quero oferecer meus serviços", ao selecionada essa opção, o formulário renderizará mais um campo onde será informado qual tipo de serviço oferecido.
+- A tela de login e cadastro serão as mesmas para usuários e organizações, a diferenciação será feita com a opção "Quero oferecer meus serviços", ao selecionada essa opção, o formulário renderizará mais um campo onde será informado qual tipo de serviço oferecido.
 
 ![Página principal após o login ou cadastro](img/main-page-after-login.png)
 
-Página na qual o usuário será redirecionado após o cadastro ou login.
+- Página na qual o usuário será redirecionado após o cadastro ou login.
 
 ![Listagem de serviços logado](img/service-list-when-logged.png)
 
-Tela de listagem das organizações, dependendo de onde o usuário clicou. Essa tela será exibida quando o usuário já está logado.
+- Tela de listagem das organizações, dependendo de onde o usuário clicou. Essa tela será exibida quando o usuário já está logado.
 
 ![Página individual sem login](img/individual-page-logged.png)
 
-Tela onde será informações individuis com mais detalhes, poderá ser acessada ao clicar em cima de uma organização. Quando logado, o usuário poderá visualizar e deixar comentários.
+- Tela onde será informações individuis com mais detalhes, poderá ser acessada ao clicar em cima de uma organização. Quando logado, o usuário poderá visualizar e deixar comentários.
 
 ![Editar informações de usuários](img/user-edit-info.png)
 
-Página onde os usuários poderão editar suas informações.
+- Página onde os usuários poderão editar suas informações.
 
 ![Editar informações de organizações](img/organization-edit-info.png)
 
-Página onde organizações poderão editar suas informações.
+- Página onde organizações poderão editar suas informações.
