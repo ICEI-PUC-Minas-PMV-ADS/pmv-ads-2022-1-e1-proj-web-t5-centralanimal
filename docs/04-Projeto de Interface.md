@@ -1,35 +1,62 @@
-
 # Projeto de Interface
-
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+![UserFlow](img/userflow.png)
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Home](img/main-page.png)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+A tela da home informa brevemento tudo o que o site fornece aos usuários, e contem os seguintes elementos:
+
+> - Cabeçalho: A logo so site, os links de Procura-se, Sobre, Quem somos e Contato. E os botôes de login e cadastro.
+> - A página também vai conter as informações que são encontradas no site, ao clicar sobre "Clínicas Veterinárias" por exemplo, o usuário será encaminhado para a página onde serão listadas todas as clínicas, do mesmo modo acontecerá com os outros tópicos na página.
+
+---
+
+![Listagem de serviços sem estar logado](img/service-list-not-logged.png)
+
+- Tela de listagem das organizações, dependendo de onde o usuário clicou. Essa tela será exibida mesmo quando os usuários não estiverem logados.
+
+---
+
+![Página individual sem login](img/individual-page-not-logged.png)
+
+- Tela onde será informações individuis com mais detalhes, poderá ser acessada ao clicar em cima de uma organização. Quando não estiver logado, o usuário não poderá visualizar, e nem deixar comentários.
+
+---
+
+![Login e Cadastro](img/login.png)
+
+- A tela de login e cadastro serão as mesmas para usuários e organizações, a diferenciação será feita com a opção "Quero oferecer meus serviços", ao selecionada essa opção, o formulário renderizará mais um campo onde será informado qual tipo de serviço oferecido.
+
+---
+
+![Página principal após o login ou cadastro](img/main-page-after-login.png)
+
+- Página na qual o usuário será redirecionado após o cadastro ou login.
+
+---
+
+![Listagem de serviços logado](img/service-list-when-logged.png)
+
+- Tela de listagem das organizações, dependendo de onde o usuário clicou. Essa tela será exibida quando o usuário já está logado.
+
+---
+
+![Página individual sem login](img/individual-page-logged.png)
+
+- Tela onde será informações individuis com mais detalhes, poderá ser acessada ao clicar em cima de uma organização. Quando logado, o usuário poderá visualizar e deixar comentários.
+
+---
+
+![Editar informações de usuários](img/user-edit-info.png)
+
+- Página onde os usuários poderão editar suas informações.
+
+---
+
+![Editar informações de organizações](img/organization-edit-info.png)
+
+- Página onde organizações poderão editar suas informações.
