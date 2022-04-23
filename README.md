@@ -1,12 +1,14 @@
-# TÍTULO DO PROJETO
+# Central Animal
 
 Análise Desenvolvimento de sistemas
 
-`DISCIPLINA`
+`Eixo 1 - Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 05 - 2022/1`
 
-`SEMESTRE`
+`Primeiro Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma plataforma que centraliza informações para facilitar a vida dos pais de pets na hora de encontrarem informações confiáveis. São disponibilizadas informações sobre clínicas veterinárias, pet shops, cuidadores, hotéis para pets, e ONGs que trabalham com animais.
+
+Também é um meio onde empresas voltadas para o atendimento à animais possam divulgar seu trabalho e expandir seu alcance.
 
 ## Integrantes
 
