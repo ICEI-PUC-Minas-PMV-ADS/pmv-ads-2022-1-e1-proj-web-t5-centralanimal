@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 ## Personas
 
 Luana Alves - 27 anos
@@ -80,9 +78,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-| ID  | Restrição                                                                  |
-| --- | -------------------------------------------------------------------------- |
-| 01  | O projeto deverá ser entregue até o final do semestre letivo.              |
-| 02  | O aplicativo deve se restringir ás tecnologias básicas da Web no Frontend  |
-| 03  | A equipe não pode subcontratar o desenvolvimento do trabalho.              |
-| --  | -------------------------------------------------------------------------- |
+| ID  | Restrição                                                                 |
+| --- | ------------------------------------------------------------------------- |
+| 01  | O projeto deverá ser entregue até o final do semestre letivo.             |
+| 02  | O aplicativo deve se restringir ás tecnologias básicas da Web no Frontend |
+| 03  | A equipe não pode subcontratar o desenvolvimento do trabalho.             |
