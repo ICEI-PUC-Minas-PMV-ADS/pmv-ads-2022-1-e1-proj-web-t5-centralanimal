@@ -15,7 +15,7 @@ A tela da home informa brevemento tudo o que o site fornece aos usuários, e con
 
 ---
 
-![Listagem de serviços sem estar logado](img/service-list-not-logged-in.png)
+![Listagem de serviços sem estar logado](img/service-list-not-logged.png)
 
 - Tela de listagem das organizações, dependendo de onde o usuário clicou. Essa tela será exibida mesmo quando os usuários não estiverem logados.
 
