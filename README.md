@@ -1,6 +1,6 @@
 # Central Animal
 
-Análise Desenvolvimento de sistemas
+Análise e Desenvolvimento de Sistemas - Tecnólogo
 
 `Eixo 1 - Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 05 - 2022/1`
 
