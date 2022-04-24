@@ -4,7 +4,9 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-O software será estruturado no "modelo C4" que significa contexto, conteiners, componentes e código. Tal modelo de diagramação visa combater ambiguidades e confusões. etc c4
+O software será estruturado no "modelo C4" que significa contexto, conteiners, componentes e código. Tal modelo de diagramação visa combater ambiguidades e confusões. 
+Assim a arquitetura da solução subdivide-se em quatro níveis:
+No nível 1 (um) nós temos o contexto do sistema mostra os sistema de software em construção, representado pela cor azul conforme figura xx, e a forma como os usuários interagem com ele; no nível 2, um diagrama de container, mostra os aplicativos, Navegador, a internet e a hospedagem do código de desenvolvimento; no nível 3, há a ampliação dos conteiners, revelando as tecnologias dentro deles, A página web composta por HTML, CSS e Javascript, o local de armazenamento e aplicação webfront a ser desenvolvida, com o código hospedado no repositório Github.
 
 
 
@@ -12,61 +14,43 @@ O software será estruturado no "modelo C4" que significa contexto, conteiners, 
 
 Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
 
-Exemplo: 
+O Diagramas foram modelados com base em níveis, onde cada camada representa uma hierarquia: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
 
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![Diagrama de Componentes](img/NÍVEL 1- DIAGRAMA DE CONTEXTO.png)
+<center>Figura XX - Nível 1 - Contexto de Sistema</center>
 
-A solução implementada conta com os seguintes módulos:
+
+Nível 1 o contexto do sistema de Software
+
+- **Software** - Segundo Pressman (2006), um software é um conjunto composto por instruções decomputador    estruturas de dados e documentos;
+- **Usuário** - Pessoas recém-chegadas em cidades novas que procuram informações sobre animais.
+- **Administrador** - Donos de Petshop; Médicos veterinários.
+
+Nível 2 - A solução implementada em determinado contexto detém os seguintes conteneirs:
 - **Navegador** - Interface básica do sistema  
+  **Internet** -  uma rede mundial que tem como objetivo interligar computadores para fornecer ao usuário o acesso a diversas informações.
+  **Hospedagem** - - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
+Nível 3 - Cada conteneir contém os seguintes componentes:
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
      - **Canais** - seções de notícias apresentadas 
      - **Comentários** - registro de opiniões dos usuários sobre as notícias
      - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
-
+       **Aplicação Webfront end- Central animal** - Marcada com a coloração azul, que indica o software a ser construído utilizando as tecnologias de desenvolvimento front-end HTML, CSS, JavaScript.
+Nível 4 - o Código
+    - **HTML** HTML ou HyperText Markup Language é a linguagem de marcação, baseada em marcas ou (tags), utilizada para produção de documentos ou páginas Web, no formato de hipertextos, que são interpretados pelos Navegadores. Os hipertextos são documentos que utilizam hiperlinks para outros documentos relacionados, daí o nome Web (teia).
+    -**CSS**linguagem CSS permite separar o conteúdo de um site Web do seu estilo. 
+    -**JAVASCRIPT**a linguagem JavaScript adiciona a interatividade e permite a criação de aplicações ricas.
+             
 > **Links Úteis**:
 >
-> - [Whimsical](https://whimsical.com/)
-
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
-
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
-
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
-
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
-
-![Exemplo de UserFlow](img/userflow.jpg)
-
-
-## Tecnologias Utilizadas
-
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+> - [O modelo C4 de documentação para Arquitetura de Software](https://www.infoq.com/br/articles/C4-architecture-model/)
+> - [The C4 model for visualising software architecture
+Context, Containers, Components, and Code] (https://c4model.com/)
+> - [ECMA Script 262. Especificação da Linguagem Javascript] (https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+> - [How CSS works] (https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+> -[HTML: HyperText Markup Language] (https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 
 ## Hospedagem
@@ -76,6 +60,4 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 > **Links Úteis**:
 >
 > - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+> 
