@@ -1,0 +1,106 @@
+:root {
+  --light-pink: #fdf5f5;
+  --primary-yellow: #ffd432;
+  --dark-blue: #110066;
+  --light-blue: #90cbfb;
+  --grey: #919191;
+  --body-font: "Raleway";
+  --logo-font: "Chewy";
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  min-width: 600px;
+  background-color: var(--light-pink);
+  background-size: auto;
+}
+
+header {
+  height: 100px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.header-content-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-img {
+  width: 50px;
+}
+
+.header-logo-title {
+  font-family: var(--logo-font);
+  color: var(--dark-blue);
+  font-size: 2.5rem;
+  margin-left: 20px;
+}
+
+.header-content-menu {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.header-content-login {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--body-font);
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.register-button {
+  width: 150px;
+  height: 50px;
+  font-family: var(--body-font);
+  font-weight: 600;
+  border: none;
+  background-color: var(--primary-yellow);
+  font-size: 1.3rem;
+  border-radius: 15px;
+  box-shadow: -1px 10px 20px rgb(156, 156, 156);
+  cursor: pointer;
+}
+
+.page-content {
+  height: 100vh;
+}
+
+footer {
+  height: 100px;
+  background-image: linear-gradient(#ffd432, #efbd00);
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-logo-img {
+  width: 30px;
+}
+
+.footer-logo-title {
+  font-family: var(--logo-font);
+  color: var(--dark-blue);
+  font-size: 2rem;
+  margin-left: 20px;
+}
