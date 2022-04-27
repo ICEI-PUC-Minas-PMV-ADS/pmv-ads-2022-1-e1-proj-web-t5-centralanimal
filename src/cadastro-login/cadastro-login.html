@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Central Animal</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="cadastro-login.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:wght@200;300;600;700&display=swap"
       rel="stylesheet"
@@ -14,22 +14,29 @@
   </head>
   <body>
     <header>
-        <div class="header-content-logo">
-          <img class="header-logo-img" src="/docs/img/logo.png" alt="" />
-          <h1 class="header-logo-title">Central Animal</h1>
-        </div>
-        <div class="header-content-menu">
-          <link href="#">Procura-se</link>
-          <link href="#">Sobre</link>
-          <link href="#">Quem somos</link>
-          <link href="#">Contato</link>
-        </div>
-        <div class="header-content-login">
-          <link class="login" href="">Login</link>
-          <button class="register-button">Cadastre-se</button>
-        </div>
+      <div class="header-content-logo">
+        <img class="header-logo-img" src="/docs/img/logo.png" alt="" />
+        <h1 class="header-logo-title">Central Animal</h1>
+      </div>
+      <div class="header-content-menu">
+        <a href="#">Procura-se</a>
+        <a href="#">Sobre</a>
+        <a href="#">Quem somos</a>
+        <a href="#">Contato</a>
+      </div>
     </header>
-    <div class="page-content"></div>
+    <div class="page-content">
+      <div class="page-content-register">
+        <h2 class="page-content-register-title">Criar conta</h2>
+        <form class="form-register">
+          <input placeholder="Nome" class="register-input" />
+          <input placeholder="Email" class="register-input" />
+          <input placeholder="Senha" class="register-input" />
+          <button class="button-register">Cadastrar</button>
+        </form>
+      </div>
+      <div class="page-content-login"></div>
+    </div>
     <footer>
       <div class="footer-content">
         <img class="footer-logo-img" src="/docs/img/logo.png" alt="" />
