@@ -48,9 +48,13 @@ header {
   align-items: center;
   justify-content: space-evenly;
   font-family: var(--body-font);
-  color: var(--dark-blue);
   font-weight: 300;
   font-size: 1.2rem;
+}
+
+.header-content-menu a {
+  text-decoration: none;
+  color: var(--dark-blue);
 }
 
 .header-content-login {
@@ -61,6 +65,11 @@ header {
   font-family: var(--body-font);
   font-weight: 600;
   font-size: 1.3rem;
+}
+
+.header-content-login a {
+  text-decoration: none;
+  color: var(--dark-blue);
 }
 
 .register-button {
