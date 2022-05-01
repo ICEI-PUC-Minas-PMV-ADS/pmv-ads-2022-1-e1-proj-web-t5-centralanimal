@@ -88,6 +88,39 @@ header {
 .page-content {
   height: calc(100vh - 100px);
 }
+.pet-shop{
+  display: flex;
+  height: 1000px;
+  width: 90%;
+
+}
+
+.img-site-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.png-site-info{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-site-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.title-site-info {
+  font-size: 300%;
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+  font-weight: 400;
+}
 
 footer {
   height: 100px;
