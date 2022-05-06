@@ -29,15 +29,26 @@
       <div class="page-content-register">
         <h2 class="page-content-register-title">Criar conta</h2>
         <form class="form-register">
-          <input placeholder="Nome" class="register-input" />
-          <input placeholder="Email" class="register-input" />
-          <input placeholder="Senha" class="register-input" />
+          <input
+            placeholder="Nome"
+            class="register-input"
+            id="register-name-input"
+          />
+          <input
+            placeholder="Email"
+            class="register-input"
+            id="register-email-input"
+          />
+          <input
+            placeholder="Senha"
+            class="register-input"
+            id="register-password-input"
+          />
           <div class="checkbox-container">
             <input
               class="checkbox-input"
               name="organization"
               type="checkbox"
-              onclick="showInput()"
               id="checkbox"
             />
             <label for="organization" class="checkbox-input-label"
@@ -60,5 +71,6 @@
         <h1 class="footer-logo-title">Central Animal</h1>
       </div>
     </footer>
+    <script type="text/javascript" src="cadastro-login.js"></script>
   </body>
 </html>
