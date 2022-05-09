@@ -1,3 +1,5 @@
+// Registro
+
 const checkbox = document.getElementById("checkbox");
 checkbox.addEventListener("click", showInput);
 
@@ -13,10 +15,12 @@ function showInput() {
   }
 }
 
-document.querySelector("form").addEventListener("submit", saveInformation);
+document
+  .getElementById("form-register")
+  .addEventListener("submit", saveInformation);
 
-function saveInformation(e) {
-  e.preventDefault();
+function saveInformation(event) {
+  event.preventDefault();
 
   const nameValue = document.getElementById("register-name-input").value;
   const emailValue = document.getElementById("register-email-input").value;
@@ -58,5 +62,31 @@ function saveInformation(e) {
   } else {
     localStorage.setItem("registered", JSON.stringify(data));
     localStorage.setItem("login", JSON.stringify(data[0]));
+  }
+}
+
+// Login
+
+document.getElementById("form-login").addEventListener("submit", login);
+
+function login(event) {
+  event.preventDefault();
+
+  const emailValue = document.getElementById("login-email-input").value;
+  const passwordValue = document.getElementById("login-password-input").value;
+
+  const registers = JSON.parse(localStorage.getItem("registered"));
+  const findLogin = registers.filter((item) => item.email === emailValue);
+
+  if (findLogin.length) {
+    const findPassword = findLogin[0].password === passwordValue ? true : false;
+
+    if (!findPassword) {
+      alert("Você digitou o email errado, tente novamente!");
+    } else {
+      localStorage.setItem("login", JSON.stringify(findLogin[0]));
+    }
+  } else {
+    alert("Email não cadastrado, cadastre-se ao lado!");
   }
 }
