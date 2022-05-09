@@ -40,16 +40,23 @@ function saveInformation(e) {
   ];
 
   const hasRegister = localStorage.getItem("registered");
-  console.log(JSON.parse(hasRegister));
+  const registers = JSON.parse(hasRegister);
 
-  // if (hasRegister) {
-  //   if ()
-  // }
+  if (hasRegister) {
+    const findExistingRegister = registers.filter(
+      (item) => item.email === emailValue
+    );
 
-  localStorage.setItem("registered", JSON.stringify(data));
-  localStorage.setItem("login", JSON.stringify(data[0]));
+    if (findExistingRegister.length) {
+      alert("Esse email já está cadastrado, realize o login ao lado!");
+    } else {
+      const newRegister = [...registers, data[0]];
+      localStorage.removeItem("registered");
+      localStorage.setItem("registered", JSON.stringify(newRegister));
+      localStorage.setItem("login", JSON.stringify(data[0]));
+    }
+  } else {
+    localStorage.setItem("registered", JSON.stringify(data));
+    localStorage.setItem("login", JSON.stringify(data[0]));
+  }
 }
-
-const hasRegister = localStorage.getItem("registered");
-// console.log(hasRegister);
-console.log(JSON.parse(hasRegister));

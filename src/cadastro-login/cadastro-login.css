@@ -83,14 +83,13 @@ footer {
   margin-left: 20px;
 }
 
-/* Página de login e cadastro */
+/* Cadastro */
 
 .page-content {
-  background-color: white;
   width: 1250px;
   margin: 100px auto 100px;
-  border-radius: 15px;
   height: calc(100vh - 300px);
+  display: flex;
 }
 
 .page-content-register {
@@ -109,7 +108,7 @@ footer {
   font-weight: 600;
   color: var(--dark-blue);
   font-size: 2.5rem;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .form-register {
@@ -159,4 +158,46 @@ footer {
   border-radius: 15px;
   cursor: pointer;
   color: white;
+}
+
+/* Login */
+
+.page-content-login {
+  background-color: white;
+  border-radius: 0 15px 15px 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 0;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.login-input {
+  background-color: #ededed;
+  outline: none;
+  border-radius: none;
+  border: none;
+  width: 450px;
+  height: 55px;
+  padding: 0 10px;
+  font-size: 1rem;
+  font-family: var(--body-font);
+}
+
+.button-login {
+  height: 55px;
+  font-family: var(--body-font);
+  font-weight: 600;
+  border: none;
+  background-color: var(--primary-yellow);
+  color: var(--dark-blue);
+  font-size: 1.3rem;
+  border-radius: 15px;
+  cursor: pointer;
 }
