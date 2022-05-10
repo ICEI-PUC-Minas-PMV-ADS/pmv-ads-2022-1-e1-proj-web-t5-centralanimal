@@ -82,7 +82,7 @@ function login(event) {
     const findPassword = findLogin[0].password === passwordValue ? true : false;
 
     if (!findPassword) {
-      alert("Você digitou o email errado, tente novamente!");
+      alert("Você digitou a senha errada, tente novamente!");
     } else {
       localStorage.setItem("login", JSON.stringify(findLogin[0]));
     }
