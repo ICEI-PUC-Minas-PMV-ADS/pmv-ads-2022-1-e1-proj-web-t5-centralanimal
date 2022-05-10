@@ -4,14 +4,20 @@ const checkbox = document.getElementById("checkbox");
 checkbox.addEventListener("click", showInput);
 
 const cnpjInput = document.getElementById("checkbox-cnpj-input");
+const serviceInputContainer = document.getElementById("select-service-input");
+const serviceInput = document.getElementById("organization-services");
 
 function showInput() {
   if (checkbox.checked == true) {
     cnpjInput.style.display = "block";
+    serviceInputContainer.style.display = "block";
     cnpjInput.setAttribute("required", true);
+    serviceInput.setAttribute("required", true);
   } else {
     cnpjInput.style.display = "none";
+    serviceInputContainer.style.display = "none";
     cnpjInput.setAttribute("required", false);
+    serviceInput.setAttribute("required", false);
   }
 }
 
@@ -28,6 +34,7 @@ function saveInformation(event) {
     "register-password-input"
   ).value;
   const isOrganization = document.getElementById("checkbox");
+  const serviceValue = document.getElementById("organization-services").value;
   const cnpjValue = document.getElementById("checkbox-cnpj-input").value;
 
   const data = [
@@ -37,6 +44,7 @@ function saveInformation(event) {
       email: emailValue,
       password: passwordValue,
       isOrganization: isOrganization.checked,
+      service: serviceValue,
       cnpj: cnpjValue ? cnpjValue : "",
       comments: [],
       ranking: undefined,
