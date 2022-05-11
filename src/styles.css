@@ -9,13 +9,6 @@
   box-sizing: border-box;
 }
 
-body {
-
-  padding-top: 125px;
-}
-
-
-
 html {
   height: 100vh;
   min-width: 600px;
@@ -31,10 +24,7 @@ header {
   align-items: center;
   width: 90%;
   margin-left: 5%;
-  top: 0;
-  
 }
-
 
 .header-content-logo {
   display: flex;
@@ -99,74 +89,62 @@ header {
   height: calc(100vh - 100px);
   padding: 100px;
   height: auto;
-  
 }
 
-/* >>>>>>>>>> style pet shop, hotel pet <<<<<<<<<<  */
-
-.pet-shop, .pet-hotel{
-  display: flex;
-  height: 1000px;
-  width: 90%;
-  height: fit-content;
-  width: fit-content;
-
-}
-
-
-
-.img-pet-shop, .img-pet-hotel{
+.vets, .hotels{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: fit-content; 
-  width: fit-content;
-  margin: 10px;
-  
+  height: 1000px;
+  width: 90%;
+
 }
 
-.png-pet-shop, .png-pet-hotel{
+.img-vets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img-hotels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: aliceblue;
+  border: solid gray;
+
+}
+
+
+.png-vets, .png-hotels{
   display: flex;
   width: 60%;
   justify-content: center;
   align-items: center;
-  opacity: 10%;
 }
 
-.text-pet-shop, .text-pet-hotel {
+.text-vets {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500%;
- 
+  width: 40%;
 }
 
-.title-pet-shop, .title-pet-hotel {
+.title-vets {
   font-size: 300%;
   font-family: var(--body-font);
   color: var(--dark-blue);
   font-weight: 400;
-  text-decoration: none;
-  
 }
 
 
 footer {
- /* height: 100px;
+  height: 100px;
   background-image: linear-gradient(#ffd432, #efbd00);
   display: flex;
   align-items: center;
-  position: fixed;
-  */
-
-  /* Mudança feita para fixar footer no fim da página */ 
-  position: fixed;
-  height: 50px;
-  background-image: linear-gradient(#ffd432, #efbd00);
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
 }
 
 .footer-content {
