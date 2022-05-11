@@ -113,11 +113,13 @@ header {
 
 }
 
+
+
 .img-pet-shop, .img-pet-hotel{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: fit-content;
+  height: fit-content; 
   width: fit-content;
   margin: 10px;
   
@@ -136,6 +138,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 500%;
+ 
 }
 
 .title-pet-shop, .title-pet-hotel {
@@ -143,6 +146,7 @@ header {
   font-family: var(--body-font);
   color: var(--dark-blue);
   font-weight: 400;
+  text-decoration: none;
   
 }
 
@@ -154,6 +158,8 @@ footer {
   align-items: center;
   position: fixed;
   */
+
+  /* Mudança feita para fixar footer no fim da página */ 
   position: fixed;
   height: 50px;
   background-image: linear-gradient(#ffd432, #efbd00);
