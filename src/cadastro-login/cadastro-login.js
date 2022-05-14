@@ -46,6 +46,8 @@ function saveInformation(event) {
       isOrganization: isOrganization.checked,
       service: serviceValue,
       cnpj: cnpjValue ? cnpjValue : "",
+      image: "",
+      address: {},
       comments: [],
       ranking: undefined,
     },
