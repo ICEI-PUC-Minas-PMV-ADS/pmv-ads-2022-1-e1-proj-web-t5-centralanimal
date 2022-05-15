@@ -15,3 +15,29 @@ Artefatos da funcionalidade
 - cadastro-login.html
 - cadastro-login.css
 - cadastro-login.js
+
+Estrutura de dados
+
+```
+    {
+      id: string,
+      name: string,
+      email: string,
+      password: string,
+      isOrganization: boolean,
+      service: string,
+      cnpj: string,
+      description: string,
+      image: string,
+      address: {},
+      comments: [],
+      ranking: number,
+    }
+```
+
+Instruções de acesso
+
+1. Abrir index.html
+2. Clicar em "Login" ou "Cadastre-se"
+3. Realizar um cadastro ou fazer login
+4. Conferir informações inseridas no local storage
