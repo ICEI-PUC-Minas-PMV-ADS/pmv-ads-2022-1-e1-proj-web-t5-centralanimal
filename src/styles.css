@@ -85,26 +85,12 @@ header {
   cursor: pointer;
 }
 
-.page-content {
-  height: calc(100vh - 100px);
-  padding: 100px;
-  height: auto;
-}
-
-.vets, .hotels{
+.hotels{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 1000px;
   width: 90%;
-
-}
-
-.img-vets {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 }
 
 .img-hotels {
@@ -117,8 +103,109 @@ header {
 
 }
 
+.png-hotels{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
 
-.png-vets, .png-hotels{
+.pet-shop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110%;
+  width: 100%;
+}
+
+.img-site-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.png-site-info{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-site-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.title-site-info {
+  font-size: 450%;
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+  font-weight: 400;
+  width: 60%;
+  margin-right: 200px;
+}
+
+.info-ong{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 100%;
+
+}
+
+.text-info-ong {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 40%;
+  
+ 
+}
+
+.title-info-ong {
+  font-size: 300%;
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+  font-weight: 400;
+  text-align: center;
+}
+
+.register-button-ong{
+  width: 288px;
+  height: 74px;
+  font-family: var(--body-font);
+  font-weight: 600;
+  border: none;
+  background-color: var(--primary-yellow);
+  font-size: 2.7rem;
+  border-radius: 15px;
+  box-shadow: -1px 10px 20px rgb(156, 156, 156);
+  cursor: pointer;
+  margin-top: 30px;
+
+}
+
+.vets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 90%;
+
+}
+
+.img-vets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.png-vets{
   display: flex;
   width: 60%;
   justify-content: center;
@@ -133,6 +220,41 @@ header {
 }
 
 .title-vets {
+  font-size: 300%;
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+  font-weight: 400;
+}
+
+
+.pet-shop{
+  display: flex;
+  height: 1000px;
+  width: 90%;
+
+}
+
+.img-pet-shop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.png-pet-shop{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-pet-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.title-pet-shop {
   font-size: 300%;
   font-family: var(--body-font);
   color: var(--dark-blue);
