@@ -42,6 +42,10 @@ header {
   margin-left: 20px;
 }
 
+#header-logo-title {
+  text-decoration: none;
+}
+
 .header-content-menu {
   width: 500px;
   display: flex;
