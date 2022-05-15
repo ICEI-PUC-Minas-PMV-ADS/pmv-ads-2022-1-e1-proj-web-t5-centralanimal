@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Central Animal</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="cadastro-login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:wght@200;300;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content-logo">
+        <a href="../index.html">
+          <img class="header-logo-img" src="/docs/img/logo.png" alt="" />
+        </a>
+        <a href="../index.html" id="header-logo-title">
+          <h1 class="header-logo-title">Central Animal</h1>
+        </a>
+      </div>
+      <div class="header-content-menu">
+        <a href="#">Procura-se</a>
+        <a href="#">Sobre</a>
+        <a href="#">Quem somos</a>
+        <a href="#">Contato</a>
+      </div>
+    </header>
+    <div class="page-content">
+      <div class="page-content-register">
+        <h2 class="page-content-register-title">Criar conta</h2>
+        <form class="form-register" id="form-register">
+          <input
+            placeholder="Nome"
+            class="register-input"
+            id="register-name-input"
+            required
+          />
+          <input
+            placeholder="Email"
+            type="email"
+            class="register-input"
+            id="register-email-input"
+            required
+          />
+          <input
+            placeholder="Senha"
+            class="register-input"
+            id="register-password-input"
+            type="password"
+            required
+          />
+          <div class="checkbox-container">
+            <input
+              class="checkbox-input"
+              name="organization"
+              type="checkbox"
+              id="checkbox"
+            />
+            <label for="organization" class="checkbox-input-label"
+              >Sou uma organização</label
+            >
+          </div>
+          <div id="select-service-input">
+            <label for="service" class="select-input-label"
+              >Serviço prestado:</label
+            >
+            <select name="service" id="organization-services">
+              <option value=""></option>
+              <option value="clinica-veterinaria">Clínica veterinária</option>
+              <option value="pet-shop">Pet shop</option>
+              <option value="pet-hotel">Hotel para pet</option>
+              <option value="Cuidador">Cuidador(a)</option>
+              <option value="ONG">ONG</option>
+            </select>
+          </div>
+          <input
+            placeholder="CNPJ"
+            class="register-input"
+            id="checkbox-cnpj-input"
+          />
+
+          <button type="submit" class="button-register">Cadastrar</button>
+        </form>
+      </div>
+      <div class="page-content-login">
+        <h2 class="page-content-register-title">Já tenho uma conta</h2>
+        <form class="form-login" id="form-login">
+          <input
+            placeholder="Email"
+            type="email"
+            class="login-input"
+            id="login-email-input"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Senha"
+            class="login-input"
+            id="login-password-input"
+            required
+          />
+          <button type="submit" class="button-login">Entrar</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <img class="footer-logo-img" src="/docs/img/logo.png" alt="" />
+        <h1 class="footer-logo-title">Central Animal</h1>
+      </div>
+    </footer>
+    <script type="text/javascript" src="cadastro-login.js"></script>
+  </body>
+</html>
