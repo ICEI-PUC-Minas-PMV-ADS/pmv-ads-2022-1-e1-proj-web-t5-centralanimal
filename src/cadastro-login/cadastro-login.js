@@ -68,10 +68,12 @@ function saveInformation(event) {
       localStorage.removeItem("registered");
       localStorage.setItem("registered", JSON.stringify(newRegister));
       localStorage.setItem("login", JSON.stringify(data[0]));
+      location.href = "../pagina-inicial/pagina-inicial.html";
     }
   } else {
     localStorage.setItem("registered", JSON.stringify(data));
     localStorage.setItem("login", JSON.stringify(data[0]));
+    location.href = "../pagina-inicial/pagina-inicial.html";
   }
 }
 
@@ -95,6 +97,7 @@ function login(event) {
       alert("Você digitou a senha errada, tente novamente!");
     } else {
       localStorage.setItem("login", JSON.stringify(findLogin[0]));
+      location.href = "../pagina-inicial/pagina-inicial.html";
     }
   } else {
     alert("Email não cadastrado, cadastre-se ao lado!");
