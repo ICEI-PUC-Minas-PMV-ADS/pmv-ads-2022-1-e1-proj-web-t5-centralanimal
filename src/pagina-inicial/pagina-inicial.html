@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Central Animal</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="pagina-inicial.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:wght@200;300;600;700&display=swap"
       rel="stylesheet"
@@ -15,8 +15,12 @@
   <body>
     <header>
       <div class="header-content-logo">
-        <img class="header-logo-img" src="/docs/img/logo.png" alt="" />
-        <h1 class="header-logo-title">Central Animal</h1>
+        <a href="../index.html">
+          <img class="header-logo-img" src="/docs/img/logo.png" alt="" />
+        </a>
+        <a href="../index.html" id="header-logo-title">
+          <h1 class="header-logo-title">Central Animal</h1>
+        </a>
       </div>
       <div class="header-content-menu">
         <a href="#">Procura-se</a>
@@ -25,10 +29,18 @@
         <a href="#">Contato</a>
       </div>
       <div class="header-content-login">
-        <a class="login" href="./cadastro-login/cadastro-login.html">Login</a>
-        <a href="./cadastro-login/cadastro-login.html"
-          ><button class="register-button">Cadastre-se</button></a
-        >
+        <div class="header-search">
+          <input type="text" />
+          <button>
+            <img
+              src="../../docs/img/search-icon.png"
+              alt=""
+              class="search-icon"
+            />
+          </button>
+        </div>
+        <a href="">Minhas informações</a>
+        <a href="">Sair</a>
       </div>
     </header>
     <div class="page-content"></div>
