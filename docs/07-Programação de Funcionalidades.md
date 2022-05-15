@@ -1,5 +1,24 @@
 # Programação de Funcionalidades
 
+- Página inicial (RF-01 e RF-02)
+
+![Home](img/home.png)
+
+Requisitos atendidos
+
+- RF-01
+- RF-02
+
+Artefatos da funcionalidade
+
+- index.html
+- styles.css
+- reset.css
+
+Instruções de acesso
+
+1. Abrir index.html
+
 - Tela de cadastro e login (RF-03 e RF-04)
 
 ![Registro e Login](img/register-and-login-01.png)
@@ -15,6 +34,7 @@ Artefatos da funcionalidade
 - cadastro-login.html
 - cadastro-login.css
 - cadastro-login.js
+- reset.css
 
 Estrutura de dados
 
