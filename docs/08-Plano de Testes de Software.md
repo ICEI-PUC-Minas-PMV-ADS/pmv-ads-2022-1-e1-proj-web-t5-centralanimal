@@ -1,19 +1,26 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+| Caso de teste      | CT-01 - Página principal                                                                      |
+| ------------------ | --------------------------------------------------------------------------------------------- |
+| Requisito RF-01    | A página principal vai contar com cards com as descrições das soluções que são oferecidas.    |
+| Requisito RF-02    | A página principal vai contar com botões que levam às telas de cadastro e login.              |
+| Passos             | 1. Abrir index.html                                                                           |
+| Objetivo do teste  | Verificar se a página inicial possui todas as informações necessárias                         |
+| Critérios de êxito | - Ao clicar em login ou cadastro, o usuário deve ser levado para a página de login e cadastro |
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+| Caso de teste     | CT-02 - Cadastro                                                                                                                               |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Requisito RF-03   | Tela de cadastro onde usuários ou organizações poderão se cadastrar.                                                                           |
+| Objetivo do teste | Verificar funcionalidade de cadastro                                                                                                           |
+| Passos            | 1. Abrir index.html; 2. Clicar em "login" ou "cadastro"; 3. Preencher informações de cadastro; 4. Verificar informação salva no local storage; |
+| Critério de êxito | - Ao inserir as informações do cadastro a tela deve ser redirecionada para a tela inicial;                                                     |
+| Critério de êxito | - Se for digitado um email já cadastrado, exibir mensagem informando o mesmo;                                                                  |
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
-
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+| Caso de teste     | CT-03 - Login                                                                                                                               |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Requisito RF-04   | Tela de login de organizações e usuários.                                                                                                   |
+| Objetivo do teste | Verificar funcionalidade de login                                                                                                           |
+| Passos            | 1. Abrir index.html; 2. Clicar em "login" ou "cadastro"; 3. Preencher informações de login; 4. Verificar informação salva no local storage; |
+| Critério de êxito | - Se cadastrado, ao inserir as informações do login a tela deve ser redirecionada para a tela inicial;                                      |
+| Critério de êxito | - Se for digitado um email não cadastrado, exibir mensagem informando o mesmo;                                                              |
+| Critério de êxito | - Se for digitado um email cadastrado mas com a senha incorreta, exibir mensagem informando o mesmo;                                        |
