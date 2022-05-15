@@ -172,6 +172,43 @@ header {
 }
 
 
+.vets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 90%;
+
+}
+
+.img-vets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.png-vets{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-vets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.title-vets {
+  font-size: 300%;
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+  font-weight: 400;
+}
+
+
 footer {
   height: 100px;
   background-image: linear-gradient(#ffd432, #efbd00);
