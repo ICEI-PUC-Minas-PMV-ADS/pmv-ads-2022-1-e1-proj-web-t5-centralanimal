@@ -35,6 +35,10 @@ header {
   width: 50px;
 }
 
+.link-back{
+  text-decoration: none;
+}
+
 .header-logo-title {
   font-family: var(--logo-font);
   color: var(--dark-blue);
