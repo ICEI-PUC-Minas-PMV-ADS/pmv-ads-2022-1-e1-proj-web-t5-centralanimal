@@ -89,21 +89,6 @@ header {
   cursor: pointer;
 }
 
-.page-cards{
-  display:flex;
-}
-
-.flex-container{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  align-items: center;
-  height: 200px;
-  width: 100%;
-  margin-top: 100px;
-}
-
 .list-lost-pets{
   display: flex;
   padding: 7% 0 0 0;
@@ -159,4 +144,31 @@ footer {
   color: var(--dark-blue);
   font-size: 2rem;
   margin-left: 20px;
+}
+
+@media (max-width: 1900px) {
+  .list-lost-pets{
+    display: list-item;
+    padding: 10% 0 0 0;
+  }
+  
+  .list-lost-pets-2{
+    display: list-item;
+  }
+  
+  .list-lost-pets-3{
+    display: list-item;
+  }
+
+  .box-vet{
+    background-color: var(--primary-yellow);
+    width: 700px;
+    height: 100%;
+    border-radius: 15px;
+    margin: 15px  auto;
+  }
+
+  .card-text{
+    font-size: 30px;
+  }
 }
