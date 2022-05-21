@@ -89,37 +89,52 @@ header {
   cursor: pointer;
 }
 
-.list-lost-pets{
-  display: flex;
-  padding: 7% 0 0 0;
+.register-pet{
+   padding: 9% 0 0 4%;
 }
 
-.list-lost-pets-2{
-  display: flex;
-}
-
-.list-lost-pets-3{
-  display: flex;
-}
-
-.box-vet{
+.register-pet-button{
+  height: 50px;
+  font-family: var(--body-font);
+  font-weight: 600;
+  border: none;
   background-color: var(--primary-yellow);
-  width: 500px;
-  height: 100%;
+  font-size: 1.3rem;
   border-radius: 15px;
-  margin: 15px  auto;
+  box-shadow: -1px 10px 20px rgb(156, 156, 156);
+  cursor: pointer;
 }
 
-.card-body{
-  width: 100%;
-  margin: auto;
+.list-lost-pets{
+  padding: 4% 0 0 0;
 }
 
-.imgs-pets-lost {
-  width: 100%;
+#boxVet{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.active{
+  background-color: var(--primary-yellow);
+  margin: auto auto 15px auto;
+  border-radius: 15px;
+}
+
+.activeIMg{
   border-radius: 15px 15px 0 0;
+  width: 500px;
 }
 
+.activeText{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-blue);
+  font-family: var(--logo-font);
+  margin: 5px 0 5px 0;
+  font-size: 1.3rem;
+}
 
 footer {
   height: 100px;
@@ -146,29 +161,12 @@ footer {
   margin-left: 20px;
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 923px) {
+  .register-pet{
+    padding: 17% 0 0 3%;
+  }
+
   .list-lost-pets{
-    display: list-item;
-    padding: 10% 0 0 0;
-  }
-  
-  .list-lost-pets-2{
-    display: list-item;
-  }
-  
-  .list-lost-pets-3{
-    display: list-item;
-  }
-
-  .box-vet{
-    background-color: var(--primary-yellow);
-    width: 700px;
-    height: 100%;
-    border-radius: 15px;
-    margin: 15px  auto;
-  }
-
-  .card-text{
-    font-size: 30px;
+    padding: 4% 0 0 0;
   }
 }
