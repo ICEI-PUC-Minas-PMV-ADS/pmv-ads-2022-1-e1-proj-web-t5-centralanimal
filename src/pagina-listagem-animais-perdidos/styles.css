@@ -90,7 +90,7 @@ header {
 }
 
 .register-pet{
-   padding: 9% 0 0 4%;
+   padding: 7% 0 0 4%;
 }
 
 .register-pet-button{
@@ -159,6 +159,16 @@ footer {
   color: var(--dark-blue);
   font-size: 2rem;
   margin-left: 20px;
+}
+
+@media (max-width: 1211px) {
+  .register-pet{
+    padding: 10% 0 0 3%;
+  }
+
+  .list-lost-pets{
+    padding: 4% 0 0 0;
+  }
 }
 
 @media (max-width: 923px) {
