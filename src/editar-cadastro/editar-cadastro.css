@@ -61,42 +61,13 @@ header {
 }
 
 .header-content-login {
-  width: 500px;
+  width: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   font-family: var(--body-font);
   font-weight: 600;
   font-size: 1.3rem;
-}
-
-.header-search {
-  display: flex;
-}
-
-.header-search input {
-  outline: none;
-  border-radius: 5px 0 0 5px;
-  border: 1px solid var(--dark-blue);
-  border-right: none;
-  padding: 2px 5px;
-  font-size: 1rem;
-  font-family: var(--body-font);
-  color: var(--dark-blue);
-}
-
-.header-search button {
-  outline: none;
-  border: 1px solid var(--dark-blue);
-  border-left: none;
-  border-radius: 0 5px 5px 0;
-  background-color: white;
-  padding: 2px 5px 2px 0;
-  cursor: pointer;
-}
-
-.search-icon {
-  width: 20px;
 }
 
 .header-content-login a {
@@ -180,6 +151,10 @@ header {
 .edit-city-input,
 .edit-country-input {
   width: 300px;
+}
+
+.edit-image-input {
+  width: calc(100% - 20px);
 }
 
 .edit-description-input {

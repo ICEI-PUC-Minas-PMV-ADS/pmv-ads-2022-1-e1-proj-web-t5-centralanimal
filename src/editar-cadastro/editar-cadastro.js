@@ -1,6 +1,5 @@
 const loggedUser = JSON.parse(localStorage.getItem("login"));
-
-console.log(loggedUser);
+const registers = JSON.parse(localStorage.getItem("registered"));
 
 const inputName = document.getElementById("edit-name-input");
 inputName.value = loggedUser.name ? loggedUser.name : "";
@@ -44,10 +43,71 @@ const inputCountry = document.getElementById("edit-country-input");
 inputCountry.value = loggedUser.address.country
   ? loggedUser.address.country
   : "";
+const inputImage = document.getElementById("edit-image-input");
+inputImage.value = loggedUser.image;
 const inputDescription = document.getElementById("edit-description-input");
 inputDescription.value = loggedUser.description;
-inputDescription.setAttribute(
-  "required",
-  loggedUser.isOrganization ? true : false
-);
-inputDescription.style.display = loggedUser.isOrganization ? "block" : "none";
+
+if (loggedUser.isOrganization) {
+  inputDescription.setAttribute("required", true);
+  inputDescription.style.display = "block";
+}
+
+document
+  .getElementById("edit-form")
+  .addEventListener("submit", editInformation);
+
+function editInformation(event) {
+  event.preventDefault();
+
+  const name = inputName.value;
+  const email = inputEmail.value;
+  const phoneNumber = inputPhone.value;
+  const document = inputCpfCnpj.value;
+  const zipCode = inputZip.value;
+  const address = inputAddress.value;
+  const number = inputNumber.value;
+  const complement = inputComplement.value;
+  const neighborhood = inputNeighborhood.value;
+  const city = inputCity.value;
+  const state = inputState.value;
+  const country = inputCountry.value;
+  const image = inputImage.value;
+  const description = inputDescription.value;
+
+  const newData = {
+    ...loggedUser,
+    name,
+    email,
+    phoneNumber,
+    cnpj: loggedUser.isOrganization ? document : "",
+    cpf: !loggedUser.isOrganization ? document : "",
+    image,
+    description,
+    address: {
+      address,
+      zipCode,
+      number,
+      complement,
+      neighborhood,
+      city,
+      state,
+      country,
+    },
+  };
+
+  const index = registers.map((item) => item.id).indexOf(loggedUser.id);
+  registers.splice(index, 1, newData);
+  const newRegisters = registers;
+  localStorage.removeItem("login");
+  localStorage.setItem("login", JSON.stringify(newData));
+  localStorage.removeItem("registered");
+  localStorage.setItem("registered", JSON.stringify(newRegisters));
+  alert("Informações atualizadas com sucesso!");
+}
+
+document.getElementById("header-logout").addEventListener("click", logout);
+
+function logout() {
+  localStorage.removeItem("login");
+}
