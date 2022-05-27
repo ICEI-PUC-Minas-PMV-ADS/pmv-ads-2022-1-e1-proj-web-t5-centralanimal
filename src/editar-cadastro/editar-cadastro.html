@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Central Animal</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="editar-cadastro.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:wght@200;300;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content-logo">
+        <a href="../pagina-inicial/pagina-inicial.html">
+          <img class="header-logo-img" src="/docs/img/logo.png" alt="" />
+        </a>
+        <a href="../pagina-inicial/pagina-inicial.html" id="header-logo-title">
+          <h1 class="header-logo-title">Central Animal</h1>
+        </a>
+      </div>
+      <div class="header-content-menu">
+        <a href="#">Procura-se</a>
+        <a href="#">Sobre</a>
+        <a href="#">Quem somos</a>
+        <a href="#">Contato</a>
+      </div>
+      <div class="header-content-login">
+        <a id="header-logout" href="../index.html">Sair</a>
+      </div>
+    </header>
+    <div class="page-content">
+      <div class="page-content-form-container">
+        <div class="page-content-form-title">
+          <h2 class="edit-form-title">Minhas informações</h2>
+          <img class="edit-form-title-logo" src="/docs/img/logo.png" alt="" />
+        </div>
+        <div class="page-content-form">
+          <form id="edit-form" class="edit-form">
+            <div class="input-group">
+              <input
+                placeholder="Nome"
+                id="edit-name-input"
+                class="edit-input edit-name-input"
+                required
+              />
+              <input
+                placeholder="Email"
+                type="email"
+                id="edit-email-input"
+                class="edit-input edit-email-input"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <input
+                placeholder="Telefone"
+                id="edit-phone-input"
+                class="edit-input edit-phone-input"
+                required
+              />
+              <input
+                placeholder="CPF"
+                id="edit-cpf-cnpj-input"
+                class="edit-input edit-cpf-cnpj-input"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <input
+                placeholder="CEP"
+                id="edit-zip-input"
+                class="edit-input edit-zip-input"
+                required
+              />
+              <input
+                placeholder="Endereço"
+                id="edit-address-input"
+                class="edit-input edit-address-input"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <input
+                placeholder="Número"
+                id="edit-number-input"
+                class="edit-input edit-number-input"
+                required
+              />
+              <input
+                placeholder="Complemento"
+                id="edit-complement-input"
+                class="edit-input edit-complement-input"
+              />
+              <input
+                placeholder="Bairro"
+                id="edit-neighborhood-input"
+                class="edit-input edit-neighborhood-input"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <input
+                placeholder="Cidade"
+                id="edit-city-input"
+                class="edit-input edit-city-input"
+                required
+              />
+              <input
+                placeholder="Estado"
+                id="edit-state-input"
+                class="edit-input edit-state-input"
+                required
+              />
+              <input
+                placeholder="País"
+                id="edit-country-input"
+                class="edit-input edit-country-input"
+                required
+              />
+            </div>
+            <input
+              placeholder="URL da imagem"
+              id="edit-image-input"
+              class="edit-input edit-image-input"
+              required
+            />
+            <input
+              placeholder="Descrição"
+              id="edit-description-input"
+              class="edit-input edit-description-input"
+            />
+            <div class="edit-button-submit-container">
+              <button class="edit-button-submit" type="submit">Salvar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <img class="footer-logo-img" src="/docs/img/logo.png" alt="" />
+        <h1 class="footer-logo-title">Central Animal</h1>
+      </div>
+    </footer>
+    <script type="text/javascript" src="editar-cadastro.js"></script>
+  </body>
+</html>
