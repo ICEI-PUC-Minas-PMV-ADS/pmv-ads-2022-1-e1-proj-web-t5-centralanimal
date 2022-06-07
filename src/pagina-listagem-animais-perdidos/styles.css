@@ -105,6 +105,133 @@ header {
   cursor: pointer;
 }
 
+.modal{
+  --bs-modal-width: 1800px !important;
+  --bs-modal-height: 1000px !important;
+}
+
+.modal-content {
+  height: 1000px !important;
+}
+
+
+.page-content-form-container {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  min-height: calc(100vh - 300px);
+  border-radius: 15px;
+  display: flex;
+}
+
+
+
+.page-content {
+  min-height: calc(100vh - 100px);
+}
+
+
+.page-content-form-title {
+  width: 20%;
+  background-color: var(--primary-yellow);
+  min-height: calc(100vh - 300px);
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 2rem;
+}
+
+.edit-form-title {
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.edit-form-title-logo {
+  width: 100px;
+}
+
+.page-content-form {
+  width: 80%;
+}
+
+.edit-form {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-input {
+  background-color: #ededed;
+  outline: none;
+  border-radius: none;
+  border: none;
+  width: 400px;
+  height: 55px;
+  padding: 0 10px;
+  font-size: 1rem;
+  font-family: var(--body-font);
+}
+
+.edit-number-input,
+.edit-state-input {
+  width: 150px;
+}
+
+.edit-complement-input,
+.edit-neighborhood-input,
+.edit-city-input,
+.edit-country-input {
+  width: 300px;
+}
+
+.edit-image-input {
+  width: calc(100% - 20px);
+}
+
+.edit-description-input {
+  width: calc(100% - 20px);
+  display: none;
+}
+
+.edit-button-submit-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.edit-button-submit {
+  width: 200px;
+  height: 55px;
+  font-family: var(--body-font);
+  font-weight: 600;
+  border: none;
+  background-color: var(--primary-yellow);
+  color: var(--dark-blue);
+  font-size: 1.3rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
 .list-lost-pets{
   padding: 4% 0 0 0;
 }
@@ -178,5 +305,24 @@ footer {
 
   .list-lost-pets{
     padding: 4% 0 0 0;
+  }
+}
+
+@media (max-width: 976px) {
+
+  .page-content-form-title {
+    width: 40%;
+    background-color: var(--primary-yellow);
+    min-height: calc(100vh - 300px);
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+  }
+
+  .modal-content {
+    height: 1300px !important;
   }
 }

@@ -41,8 +41,129 @@
     <div class="page-content">
       
       <div class="register-pet">
-        <a href="./cadastro-login/cadastro-login.html">
-        <button class="register-pet-button">Cadastre seu pet perdido</button></a>
+
+        <button type="button" class="register-pet-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Cadastre seu pet perdido
+        </button>
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Informe sobre seu pet</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="page-content-form-container">
+                <div class="page-content-form-title">
+                  <h2 class="edit-form-title">Minhas informações</h2>
+                  <img class="edit-form-title-logo" src="/docs/img/logo.png" alt="" />
+                </div>
+
+              <div class="page-content-form">
+                <form id="edit-form" class="edit-form">
+                  <div class="input-group">
+                    <input
+                      placeholder="Nome"
+                      id="edit-name-input"
+                      class="edit-input edit-name-input"
+                      required
+                    />
+                    <input
+                      placeholder="Email"
+                      type="email"
+                      id="edit-email-input"
+                      class="edit-input edit-email-input"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      placeholder="Telefone"
+                      id="edit-phone-input"
+                      class="edit-input edit-phone-input"
+                      required
+                    />
+                    <input
+                      placeholder="CPF"
+                      id="edit-cpf-cnpj-input"
+                      class="edit-input edit-cpf-cnpj-input"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      placeholder="CEP"
+                      id="edit-zip-input"
+                      class="edit-input edit-zip-input"
+                      required
+                    />
+                    <input
+                      placeholder="Endereço"
+                      id="edit-address-input"
+                      class="edit-input edit-address-input"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      placeholder="Número"
+                      id="edit-number-input"
+                      class="edit-input edit-number-input"
+                      required
+                    />
+                    <input
+                      placeholder="Complemento"
+                      id="edit-complement-input"
+                      class="edit-input edit-complement-input"
+                    />
+                    <input
+                      placeholder="Bairro"
+                      id="edit-neighborhood-input"
+                      class="edit-input edit-neighborhood-input"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      placeholder="Cidade"
+                      id="edit-city-input"
+                      class="edit-input edit-city-input"
+                      required
+                    />
+                    <input
+                      placeholder="Estado"
+                      id="edit-state-input"
+                      class="edit-input edit-state-input"
+                      required
+                    />
+                    <input
+                      placeholder="País"
+                      id="edit-country-input"
+                      class="edit-input edit-country-input"
+                      required
+                    />
+                  </div>
+                  <input
+                      placeholder="Nome do pet"
+                      id="edit-name-input"
+                      class="edit-input edit-image-input"
+                      required
+                    />
+                  <input
+                    placeholder="URL da imagem"
+                    id="edit-image-input"
+                    class="edit-input edit-image-input"
+                    required
+                  />
+                  <div class="edit-button-submit-container">
+                    <button class="edit-button-submit" type="submit">Salvar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       
       <div class="list-lost-pets">

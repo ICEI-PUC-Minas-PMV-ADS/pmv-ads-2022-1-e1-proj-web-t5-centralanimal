@@ -32,3 +32,4 @@ arrayTesteAnimais = [
 arrayTesteAnimais.forEach(element => {
     adinionaCardPet(element.fotoTeste, element.nomeAnimal);
 });
+
