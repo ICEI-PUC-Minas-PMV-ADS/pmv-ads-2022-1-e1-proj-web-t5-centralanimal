@@ -124,12 +124,9 @@ header {
   display: flex;
 }
 
-
-
 .page-content {
   min-height: calc(100vh - 100px);
 }
-
 
 .page-content-form-title {
   width: 20%;
@@ -222,16 +219,6 @@ header {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
 .list-lost-pets{
   padding: 4% 0 0 0;
 }
@@ -244,7 +231,7 @@ header {
 
 .active{
   background-color: var(--primary-yellow);
-  margin: auto auto 15px auto;
+  margin: auto 60px 100px 0;
   border-radius: 15px;
 }
 
