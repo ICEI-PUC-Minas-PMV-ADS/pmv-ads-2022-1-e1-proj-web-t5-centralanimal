@@ -10,22 +10,22 @@ let adinionaCardPet = (imagem, texto) =>{
 arrayTesteAnimais = [
     animal = {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
     }
 ]
 

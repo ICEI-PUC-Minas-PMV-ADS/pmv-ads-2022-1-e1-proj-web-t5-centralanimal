@@ -10,22 +10,22 @@ let adinionaCardPet = (imagem, texto) =>{
 arrayTesteAnimais = [
     animal = {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
     }
 ]
 

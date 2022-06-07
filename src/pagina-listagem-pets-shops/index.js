@@ -10,22 +10,22 @@ let adinionaCardPet = (imagem, texto) =>{
 arrayTesteAnimais = [
     animal = {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
     },    {
         nomeAnimal : "testenome",
-        fotoTeste : "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=90&strip=info&resize=680,453"
+        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
     }
 ]
 
