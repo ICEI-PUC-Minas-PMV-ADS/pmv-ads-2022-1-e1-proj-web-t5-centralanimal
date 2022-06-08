@@ -106,32 +106,22 @@ header {
 }
 
 .modal{
-  --bs-modal-width: 1800px !important;
+  --bs-modal-width: 1000px !important;
   --bs-modal-height: 1000px !important;
-}
-
-.modal-content {
-  height: 1000px !important;
 }
 
 
 .page-content-form-container {
   width: 80%;
-  margin: auto;
+  margin: 20px auto;
   background-color: white;
-  min-height: calc(100vh - 300px);
   border-radius: 15px;
   display: flex;
 }
 
-.page-content {
-  min-height: calc(100vh - 100px);
-}
-
 .page-content-form-title {
-  width: 20%;
+  width: 30%;
   background-color: var(--primary-yellow);
-  min-height: calc(100vh - 300px);
   border-radius: 15px 0 0 15px;
   display: flex;
   flex-direction: column;
@@ -207,7 +197,7 @@ header {
 }
 
 .edit-button-submit {
-  width: 200px;
+  width: 100%;
   height: 55px;
   font-family: var(--body-font);
   font-weight: 600;
@@ -217,6 +207,7 @@ header {
   font-size: 1.3rem;
   border-radius: 15px;
   cursor: pointer;
+  margin-right: 18px;
 }
 
 .list-lost-pets{
