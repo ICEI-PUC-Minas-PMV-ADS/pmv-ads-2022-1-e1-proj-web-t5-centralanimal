@@ -9,16 +9,12 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100vh;
-  min-width: 600px;
-  background-color: var(--light-pink);
-  background-size: auto;
+body {
+  background-color: var(--light-pink) !important;
 }
 
 header {
   height: 100px;
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +31,7 @@ header {
   width: 50px;
 }
 
-.link-back{
+.link-back {
   text-decoration: none;
 }
 
@@ -71,6 +67,17 @@ header {
   font-size: 1.3rem;
 }
 
+#header-my-information {
+  display: none;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--body-font);
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
 .header-content-login a {
   text-decoration: none;
   color: var(--dark-blue);
@@ -89,11 +96,12 @@ header {
   cursor: pointer;
 }
 
-.register-pet{
-   padding: 7% 0 0 4%;
+.register-pet {
+  padding: 2% 0 0 4%;
+  height: calc(100vh - 200px);
 }
 
-.register-pet-button{
+.register-pet-button {
   height: 50px;
   font-family: var(--body-font);
   font-weight: 600;
@@ -105,16 +113,14 @@ header {
   cursor: pointer;
 }
 
-.modal{
+.modal {
   --bs-modal-width: 1000px !important;
   --bs-modal-height: 1000px !important;
 }
 
-
 .page-content-form-container {
   width: 80%;
   margin: 20px auto;
-  background-color: white;
   border-radius: 15px;
   display: flex;
 }
@@ -210,33 +216,41 @@ header {
   margin-right: 18px;
 }
 
-.list-lost-pets{
+.list-lost-pets {
   padding: 4% 0 0 0;
 }
 
-#boxVet{
+#boxVet {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.active{
+.active {
+  width: 500px;
+  height: 500px;
   background-color: var(--primary-yellow);
   margin: auto 60px 100px 0;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
 }
 
-.activeIMg{
-  border-radius: 15px 15px 0 0;
-  width: 500px;
+.activeIMg {
+  border-radius: 15px;
+  width: 400px;
+  align-self: center;
+  margin: 1rem;
 }
 
-.activeText{  
+.activeText {
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--dark-blue);
-  font-family: var(--logo-font);
+  font-family: var(--body-font);
   margin: 5px 0 5px 0;
   font-size: 1.3rem;
 }
@@ -267,27 +281,26 @@ footer {
 }
 
 @media (max-width: 1211px) {
-  .register-pet{
+  .register-pet {
     padding: 10% 0 0 3%;
   }
 
-  .list-lost-pets{
+  .list-lost-pets {
     padding: 4% 0 0 0;
   }
 }
 
 @media (max-width: 923px) {
-  .register-pet{
+  .register-pet {
     padding: 17% 0 0 3%;
   }
 
-  .list-lost-pets{
+  .list-lost-pets {
     padding: 4% 0 0 0;
   }
 }
 
 @media (max-width: 976px) {
-
   .page-content-form-title {
     width: 40%;
     background-color: var(--primary-yellow);
