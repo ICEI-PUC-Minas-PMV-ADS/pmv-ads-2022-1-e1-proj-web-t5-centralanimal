@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animais perdidos</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="animais-perdidos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content-logo">
+        <a href="../index.html">
+          <img class="header-logo-img" src="/docs/img/logo.png" alt="" />
+        </a>
+        <a class="link-back" href="../index.html">
+          <h1 class="header-logo-title">Central Animal</h1>
+        </a>
+      </div>
+
+      <div class="header-content-menu">
+        <a href="#">Procura-se</a>
+        <a href="#">Sobre</a>
+        <a href="#">Quem somos</a>
+        <a href="#">Contato</a>
+      </div>
+
+      <div id="header-content-login" class="header-content-login">
+        <a class="login" href="./../cadastro-login/cadastro-login.html">Login</a>
+        <a href="./../cadastro-login/cadastro-login.html">
+          <button class="register-button">Cadastre-se</button></a>
+        </div>
+        <div id="header-my-information" class="header-content-login">
+          <a href="../editar-cadastro/editar-cadastro.html">Minhas informações</a>
+          <a  id="header-logout" href="../index.html">Sair</a>
+        </div>
+      </header>
+
+    <div class="page-content">
+      <div class="register-pet">
+
+          <button type="button" class="register-pet-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Cadastre seu pet perdido
+          </button>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Informe sobre seu pet</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="page-content-form-container">
+                  <div class="page-content-form-title">
+                    <h2 class="edit-form-title">Informações do Pet</h2>
+                    <img class="edit-form-title-logo" src="/docs/img/logo.png" alt="" />
+                  </div>
+
+                  <div class="page-content-form">
+                    <form id="edit-form" class="edit-form">
+                      <div class="input-group" >
+                        <input
+                        placeholder="Nome"
+                        id="edit-name-input"
+                        class="edit-input edit-image-input"
+                        required
+                        />
+                      </div>
+                      <div class="input-group">
+                        <input
+                        placeholder="Email"
+                        type="email"
+                        id="edit-email-input"
+                        class="edit-input edit-image-input"
+                        required
+                        />
+                      </div>
+                      <div class="input-group">
+                        <input
+                        placeholder="Telefone"
+                        id="edit-phone-input"
+                        class="edit-input edit-image-input"
+                        required
+                        />
+                      </div>
+
+                      <div class="input-group">
+                        <input
+                        placeholder="Cidade"
+                        id="edit-city-input"
+                        class="edit-input edit-image-input"
+                        required
+                        />
+                      </div>
+                      <input
+                      placeholder="Nome do pet"
+                      id="edit-pet-name-input"
+                      class="edit-input edit-image-input"
+                      required
+                      />
+                      <input
+                      placeholder="Local onde foi visto pela ultima vez"
+                      id="edit-last-seen-input"
+                      class="edit-input edit-image-input"
+                      required
+                      />
+                      <input
+                      placeholder="URL da imagem"
+                      id="edit-image-input"
+                      class="edit-input edit-image-input"
+                      required
+                      />
+                      <div class="edit-button-submit-container">
+                        <button class="edit-button-submit" type="submit">Salvar</button>
+                      </div>
+                    </form>
+                    <div id="page-content-form-logged-out" class="page-content-form-logged-out" >
+                      <p class="logged-out-info-pet-form">Para cadastrar seu animalzinho perdido faça cadastre-se ou faça login!</p>
+                      <a href="../cadastro-login/cadastro-login.html">
+                        <button class="register-big-button">Cadastre-se</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <div class="list-lost-pets">
+        <div id="boxVet"></div>
+      </div>
+    </div>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <img class="footer-logo-img" src="/docs/img/logo.png" alt="" />
+          <h1 class="footer-logo-title">Central Animal</h1>
+        </div>
+      </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./animais-perdidos.js"></script>
+  </body>
+</html>
