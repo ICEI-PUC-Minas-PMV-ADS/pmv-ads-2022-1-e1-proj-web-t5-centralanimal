@@ -91,12 +91,12 @@ header {
 /* Conteúdo da página */
 
 .page-content {
-  min-height: calc(100vh - 100px);
+  /* min-height: calc(100vh - 100px); */
 }
 
 .page-content-form-container {
   width: 1250px;
-  margin: 100px auto 100px;
+  margin: 50px auto 50px;
   background-color: white;
   min-height: calc(100vh - 300px);
   border-radius: 15px;
@@ -127,7 +127,65 @@ header {
 }
 
 .page-content-form {
-  width: 80%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* parte quem somos */
+
+.container-nomes-quem-somos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 23px;
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+  font-weight: 600;
+}
+
+.integrantes{
+  display: flex;
+  height: 100px;
+}
+
+.integrantes h1{
+  margin: auto;
+}
+
+.integrantes h2{
+  margin: 0 5px;
+}
+
+.orientadora{
+  display: flex;
+}
+
+.orientadora h1{
+  margin-bottom: 20px;
+}
+
+.container-texto-quem-somos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 23px;  
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+  font-weight: 600;
+}
+
+.texto-quem-somos{
+  display: flex;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+  margin-top: 10px;
 }
 
 /* Footer */
