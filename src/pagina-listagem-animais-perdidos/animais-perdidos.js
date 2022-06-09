@@ -22,9 +22,15 @@ const registers = JSON.parse(localStorage.getItem("registered"));
 if (loggedUser) {
   document.getElementById("header-content-login").style.display = "none";
   document.getElementById("header-my-information").style.display = "flex";
+  document.getElementById("edit-form").style.display = "flex";
+  document.getElementById("page-content-form-logged-out").style.display =
+    "none";
 } else {
   document.getElementById("header-content-login").style.display = "flex";
   document.getElementById("header-my-information").style.display = "none";
+  document.getElementById("edit-form").style.display = "none";
+  document.getElementById("page-content-form-logged-out").style.display =
+    "flex";
 }
 
 const petOwnerName = document.getElementById("edit-name-input");

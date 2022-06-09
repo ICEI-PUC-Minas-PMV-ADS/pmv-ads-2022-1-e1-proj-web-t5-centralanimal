@@ -127,6 +127,7 @@ header {
 
 .page-content-form-title {
   width: 30%;
+  min-height: 600px;
   background-color: var(--primary-yellow);
   border-radius: 15px 0 0 15px;
   display: flex;
@@ -153,7 +154,7 @@ header {
 
 .edit-form {
   padding: 4rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 2rem;
 }
@@ -200,6 +201,37 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+}
+
+.page-content-form-logged-out {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30%;
+  margin-left: 10%;
+}
+
+.logged-out-info-pet-form {
+  font-family: var(--body-font);
+  font-weight: 600;
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.register-big-button {
+  width: 180px;
+  height: 65px;
+  font-family: var(--body-font);
+  font-weight: 600;
+  border: none;
+  background-color: var(--primary-yellow);
+  font-size: 1.5rem;
+  border-radius: 15px;
+  box-shadow: -1px 10px 20px rgb(156, 156, 156);
+  cursor: pointer;
+  margin-top: 30px;
 }
 
 .edit-button-submit {
