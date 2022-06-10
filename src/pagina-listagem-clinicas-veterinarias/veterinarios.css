@@ -9,11 +9,12 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100vh;
-  min-width: 600px;
-  background-color: var(--light-pink);
-  background-size: auto;
+body {
+  background-color: var(--light-pink) !important;
+}
+
+.clinicas-veterinarias {
+  min-height: calc(100vh - 100px);
 }
 
 header {
@@ -35,7 +36,7 @@ header {
   width: 50px;
 }
 
-.link-back{
+.link-back {
   text-decoration: none;
 }
 
@@ -89,47 +90,49 @@ header {
   cursor: pointer;
 }
 
-
-
-
-.clinicas-veterinarias{
-   padding: 7% 0 0 4%;
+.clinicas-veterinarias {
+  padding: 7% 0 0 4%;
 }
 
-.list-clinicas-veterinarias{
+.list-clinicas-veterinarias {
   padding: 4% 0 0 0;
 }
 
-#boxVet{
+#boxVet {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.active{
+.active {
+  width: 500px;
+  min-height: 350px;
   background-color: var(--primary-yellow);
   margin: auto 60px 100px 0;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
-.activeIMg{
-  border-radius: 15px 15px 0 0;
-  width: 500px;
+.activeIMg {
+  border-radius: 15px;
+  width: 400px;
+  align-self: center;
+  margin: 1rem;
 }
 
-.activeText{  
+.activeText {
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--dark-blue);
   font-family: var(--logo-font);
   margin: 5px 0 5px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
-
-
-
-
 
 footer {
   height: 100px;
@@ -157,27 +160,26 @@ footer {
 }
 
 @media (max-width: 1211px) {
-  .register-pet{
+  .register-pet {
     padding: 10% 0 0 3%;
   }
 
-  .list-lost-pets{
+  .list-lost-pets {
     padding: 4% 0 0 0;
   }
 }
 
 @media (max-width: 923px) {
-  .register-pet{
+  .register-pet {
     padding: 17% 0 0 3%;
   }
 
-  .list-lost-pets{
+  .list-lost-pets {
     padding: 4% 0 0 0;
   }
 }
 
 @media (max-width: 976px) {
-
   .page-content-form-title {
     width: 40%;
     background-color: var(--primary-yellow);

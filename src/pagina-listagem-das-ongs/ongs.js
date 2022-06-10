@@ -1,35 +1,14 @@
-let adinionaCardPet = (imagem, texto) =>{
-    
-    let card = document.createElement( "div" );
-        
-    card.innerHTML = `<img class="activeIMg" src=${ imagem }> <p class="activeText">${texto}</p>`
+const registers = JSON.parse(localStorage.getItem("registered"));
+const ongs = registers.filter((item) => item.service === "ONG");
 
-    document.getElementById('boxVet').appendChild(card).classList.add("active");
-}
+let adinionaCardPet = (data) => {
+  let card = document.createElement("div");
 
-arrayTesteAnimais = [
-    animal = {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://love.doghero.com.br/wp-content/uploads/2020/05/photo-1444212477490-ca407925329e-1024x640.jpg"
-    }
-]
+  card.innerHTML = `<img class="activeIMg" src=${data.image}> <p class="activeText">${data.name}</p>`;
 
-arrayTesteAnimais.forEach(element => {
-    adinionaCardPet(element.fotoTeste, element.nomeAnimal);
+  document.getElementById("boxVet").appendChild(card).classList.add("active");
+};
+
+ongs.forEach((element) => {
+  adinionaCardPet(element);
 });
-
