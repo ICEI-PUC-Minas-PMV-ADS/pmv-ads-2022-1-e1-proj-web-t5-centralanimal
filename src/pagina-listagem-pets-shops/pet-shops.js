@@ -1,35 +1,14 @@
-let adinionaCardPet = (imagem, texto) =>{
-    
-    let card = document.createElement( "div" );
-        
-    card.innerHTML = `<img class="activeIMg" src=${ imagem }> <p class="activeText">${texto}</p>`
+const registers = JSON.parse(localStorage.getItem("registered"));
+const petShops = registers.filter((item) => item.service === "pet-shop");
 
-    document.getElementById('boxVet').appendChild(card).classList.add("active");
-}
+let adinionaCardPet = (data) => {
+  let card = document.createElement("div");
 
-arrayTesteAnimais = [
-    animal = {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://amapa.ind.br/imagens/blog/1611857707-Post_Ja_esta_em_vigor_a_nova_regulamentacao_para_as_pet_shops.jpg"
-    }
-]
+  card.innerHTML = `<img class="activeIMg" src=${data.image}> <p class="activeText">${data.name}</p>`;
 
-arrayTesteAnimais.forEach(element => {
-    adinionaCardPet(element.fotoTeste, element.nomeAnimal);
+  document.getElementById("boxVet").appendChild(card).classList.add("active");
+};
+
+petShops.forEach((element) => {
+  adinionaCardPet(element);
 });
-

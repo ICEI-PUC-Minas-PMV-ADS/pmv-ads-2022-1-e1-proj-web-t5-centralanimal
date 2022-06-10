@@ -1,35 +1,14 @@
-let adinionaCardPet = (imagem, texto) =>{
-    
-    let card = document.createElement( "div" );
-        
-    card.innerHTML = `<img class="activeIMg" src=${ imagem }> <p class="activeText">${texto}</p>`
+const registers = JSON.parse(localStorage.getItem("registered"));
+const vets = registers.filter((item) => item.service === "clinica-veterinaria");
 
-    document.getElementById('boxVet').appendChild(card).classList.add("active");
-}
+let adinionaCardPet = (data) => {
+  let card = document.createElement("div");
 
-arrayTesteAnimais = [
-    animal = {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
-    },    {
-        nomeAnimal : "testenome",
-        fotoTeste : "https://www.uninga.br/wp-content/uploads/2021/05/IMG_0075-scaled.jpg"
-    }
-]
+  card.innerHTML = `<img class="activeIMg" src=${data.image}> <p class="activeText">${data.name}</p>`;
 
-arrayTesteAnimais.forEach(element => {
-    adinionaCardPet(element.fotoTeste, element.nomeAnimal);
+  document.getElementById("boxVet").appendChild(card).classList.add("active");
+};
+
+vets.forEach((element) => {
+  adinionaCardPet(element);
 });
-
