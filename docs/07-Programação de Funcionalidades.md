@@ -119,8 +119,7 @@ Instruções de acesso
 5. Listagem pet shops
 
 - Na página inicial, clicar em "Pet shops"
-
-- Tela de cadastro de animais perdidos
+  Tela de cadastro de animais perdidos
 
 > Feito por: Marcus Vinícius (layout), Amanda Cacholi (salvar informações do pet no local storage)
 
@@ -132,6 +131,22 @@ Artefatos da funcionalidade
 - animais-perdidos.html
 - animais-perdidos.css
 - animais-perdidos.js
+
+Estrutura de dados
+
+```
+{
+  pet_owner_name: string,
+  pet_owner_email: string,
+  pet_owner_phone: string,
+  pet_owner_city: string,
+  pet_owner_id: string,
+  pet_name: string,
+  pet_last_seen: string,
+  pet_photo: stringo,
+  pet_id: string,
+}
+```
 
 Instruções de acesso
 
