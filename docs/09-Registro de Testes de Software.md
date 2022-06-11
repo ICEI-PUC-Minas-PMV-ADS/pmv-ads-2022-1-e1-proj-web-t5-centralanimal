@@ -13,7 +13,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 
 | Caso de teste     | CT-02 - Cadastro   |
-## RESULTADO:
+#### RESULTADO:
 - Clicando no botão de 'Cadastre-se', da pagina principal do projeto, Cria a conta, que seus dados serão salvos e está sendo direcionado à tela principal já logado;
 
 
