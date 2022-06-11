@@ -119,6 +119,7 @@ Instruções de acesso
 5. Listagem pet shops
 
 - Na página inicial, clicar em "Pet shops"
+
   Tela de cadastro de animais perdidos
 
 > Feito por: Marcus Vinícius (layout), Amanda Cacholi (salvar informações do pet no local storage)
