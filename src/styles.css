@@ -1,3 +1,4 @@
+
 :root {
   --light-pink: #fdf5f5;
   --primary-yellow: #ffd432;
@@ -33,6 +34,10 @@ header {
 
 .header-logo-img {
   width: 50px;
+}
+
+.link-back{
+  text-decoration: none;
 }
 
 .header-logo-title {
@@ -85,41 +90,51 @@ header {
   cursor: pointer;
 }
 
-.page-content {
-  height: calc(100vh - 100px);
-}
-.pet-shop{
-  display: flex;
-  height: 1000px;
-  width: 90%;
-
+.register-pet{
+   padding: 7% 0 0 4%;
 }
 
-.img-site-info{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.png-site-info{
-  display: flex;
-  width: 60%;
-  justify-content: center;
-  align-items: center;
-}
-
-.text-site-info{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-}
-
-.title-site-info {
-  font-size: 300%;
+.register-pet-button{
+  height: 50px;
   font-family: var(--body-font);
+  font-weight: 600;
+  border: none;
+  background-color: var(--primary-yellow);
+  font-size: 1.3rem;
+  border-radius: 15px;
+  box-shadow: -1px 10px 20px rgb(156, 156, 156);
+  cursor: pointer;
+}
+
+.list-lost-pets{
+  padding: 4% 0 0 0;
+}
+
+#boxVet{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.active{
+  background-color: var(--primary-yellow);
+  margin: auto auto 15px auto;
+  border-radius: 15px;
+}
+
+.activeIMg{
+  border-radius: 15px 15px 0 0;
+  width: 500px;
+}
+
+.activeText{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--dark-blue);
-  font-weight: 400;
+  font-family: var(--logo-font);
+  margin: 5px 0 5px 0;
+  font-size: 1.3rem;
 }
 
 footer {
@@ -145,4 +160,35 @@ footer {
   color: var(--dark-blue);
   font-size: 2rem;
   margin-left: 20px;
+}
+
+@media (max-width: 1211px) {
+  .register-pet{
+    padding: 10% 0 0 3%;
+  }
+
+  .list-lost-pets{
+    padding: 4% 0 0 0;
+  }
+}
+.classe {
+  height: 74px;
+  width: 124px;
+  left: -1470px;
+  top: -674px;
+  border-radius: [object Object]px;
+  background: #E7E7E7;
+
+
+
+}
+
+@media (max-width: 923px) {
+  .register-pet{
+    padding: 17% 0 0 3%;
+  }
+
+  .list-lost-pets{
+    padding: 4% 0 0 0;
+  }
 }
