@@ -118,7 +118,7 @@ header {
   height: 800px;
 }
 
-.page-content-form-container {
+.modal-enterprise-form-container {
   width: 100%;
   margin: 40px 50px;
   border-radius: 15px;
@@ -126,7 +126,7 @@ header {
   height: 700px;
 }
 
-.page-content-form-title {
+.modal-enterprise-form-title {
   width: 35%;
   min-height: 600px;
   background-color: var(--primary-yellow);
@@ -142,21 +142,21 @@ header {
   width: 100px;
 }
 
-.edit-form {
-  padding: 4rem;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.edit-form-title {
+.modal-enterprise-edit-form-title {
   font-family: var(--body-font);
   color: var(--dark-blue);
   font-weight: 600;
   font-size: 1.2rem;
 }
 
-.edit-form-title-logo {
+.modal-enterprise-title-logo {
   width: 30px;
+}
+
+.edit-form {
+  padding: 4rem;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .input-group{
