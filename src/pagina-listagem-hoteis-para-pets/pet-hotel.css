@@ -14,12 +14,11 @@ body {
 }
 
 .hoteis-para-pets {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 200px);
 }
 
 header {
   height: 100px;
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,8 +61,12 @@ header {
   color: var(--dark-blue);
 }
 
+.header-content-menu a:hover {
+  color: var(--dark-blue);
+}
+
 .header-content-login {
-  width: 230px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,6 +77,10 @@ header {
 
 .header-content-login a {
   text-decoration: none;
+  color: var(--dark-blue);
+}
+
+.header-content-login a:hover {
   color: var(--dark-blue);
 }
 

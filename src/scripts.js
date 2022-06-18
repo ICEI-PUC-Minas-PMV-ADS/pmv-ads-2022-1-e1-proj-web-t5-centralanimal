@@ -5,29 +5,14 @@ if (loggedUser) {
   document.getElementById("header-my-information").style.display = "flex";
   document
     .getElementById("header-content-logo-link-logo")
-    .setAttribute("href", "../pagina-inicial/pagina-inicial.html");
+    .setAttribute("href", "./pagina-inicial/pagina-inicial.html");
   document
     .getElementById("header-content-logo-link-title")
-    .setAttribute("href", "../pagina-inicial/pagina-inicial.html");
+    .setAttribute("href", "./pagina-inicial/pagina-inicial.html");
 } else {
   document.getElementById("header-content-login").style.display = "flex";
   document.getElementById("header-my-information").style.display = "none";
 }
-
-const registers = JSON.parse(localStorage.getItem("registered"));
-const hotels = registers.filter((item) => item.service === "pet-hotel");
-
-let adinionaCardPet = (data) => {
-  let card = document.createElement("div");
-
-  card.innerHTML = `<img class="activeIMg" src=${data.image}> <p class="activeText">${data.name}</p>`;
-
-  document.getElementById("boxVet").appendChild(card).classList.add("active");
-};
-
-hotels.forEach((element) => {
-  adinionaCardPet(element);
-});
 
 document.getElementById("header-logout").addEventListener("click", logout);
 

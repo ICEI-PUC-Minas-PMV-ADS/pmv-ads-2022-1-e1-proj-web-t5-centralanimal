@@ -14,12 +14,12 @@ body {
 }
 
 .organizacoes {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 200px);
+  padding: 7% 0 0 4%;
 }
 
 header {
   height: 100px;
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,8 +62,12 @@ header {
   color: var(--dark-blue);
 }
 
+.header-content-menu a:hover {
+  color: var(--dark-blue);
+}
+
 .header-content-login {
-  width: 230px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,6 +78,10 @@ header {
 
 .header-content-login a {
   text-decoration: none;
+  color: var(--dark-blue);
+}
+
+.header-content-login a:hover {
   color: var(--dark-blue);
 }
 
@@ -88,10 +96,6 @@ header {
   border-radius: 15px;
   box-shadow: -1px 10px 20px rgb(156, 156, 156);
   cursor: pointer;
-}
-
-.organizacoes {
-  padding: 7% 0 0 4%;
 }
 
 .list-organizacoes {

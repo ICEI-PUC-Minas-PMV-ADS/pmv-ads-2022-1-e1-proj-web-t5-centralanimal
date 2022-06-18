@@ -58,7 +58,7 @@ header {
 }
 
 .header-content-login {
-  width: 230px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,33 +85,33 @@ header {
   cursor: pointer;
 }
 
-.site-info{
+.site-info {
   display: flex;
   align-items: flex-end;
   height: 650px;
   width: 90%;
-}  
+}
 
-.img-site-info{
+.img-site-info {
   display: flex;
   justify-content: center;
   align-items: center;
-}  
+}
 
-.png-site-info{
+.png-site-info {
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
-}  
+}
 
-.text-site-info{
+.text-site-info {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60%;
   width: 50%;
-}  
+}
 
 .title-site-info {
   font-size: 280%;
@@ -120,42 +120,42 @@ header {
   font-weight: 400;
   width: 60%;
   margin-right: 200px;
-}    
+}
 
-.vets{
+.vets {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
   margin: auto;
   margin-top: 160px;
-}  
+}
 
-.img-vets{
+.img-vets {
   display: flex;
   justify-content: center;
   align-items: center;
-}  
+}
 
-.img-vets a{
+.img-vets a {
   display: flex;
   justify-content: center;
   align-items: center;
-}  
+}
 
-.png-vets{
+.png-vets {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 63%;
-}  
+}
 
 .text-vets {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 70%;
-}  
+}
 
 .title-vets {
   font-size: 280%;
@@ -164,27 +164,27 @@ header {
   font-family: var(--body-font);
   color: var(--dark-blue);
   font-weight: 400;
-}  
+}
 
-.pet-shop{
+.pet-shop {
   display: flex;
   height: 700px;
   width: 90%;
 }
 
-.img-pet-shop{
+.img-pet-shop {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.img-pet-shop a{
+.img-pet-shop a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.png-pet-shop{
+.png-pet-shop {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,40 +205,38 @@ header {
   font-weight: 400;
 }
 
-
-.hotels{
+.hotels {
   display: flex;
   width: 90%;
   margin: auto;
-}    
+}
 
 .img-hotels {
   display: flex;
   justify-content: center;
   align-items: center;
-}    
+}
 
 .img-hotels a {
   display: flex;
   justify-content: center;
   align-items: center;
-}   
+}
 
-.png-hotels{
+.png-hotels {
   display: flex;
   width: 60%;
   justify-content: center;
   align-items: center;
-}    
+}
 
-.info-ong{
+.info-ong {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 1000px;
   width: 100%;
-
-}    
+}
 
 .text-info-ong {
   display: flex;
@@ -247,9 +245,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   width: 40%;
-  
- 
-}    
+}
 
 .title-info-ong {
   font-size: 300%;
@@ -257,9 +253,9 @@ header {
   color: var(--dark-blue);
   font-weight: 400;
   text-align: center;
-}    
+}
 
-.register-button-ong{
+.register-button-ong {
   width: 288px;
   height: 74px;
   font-family: var(--body-font);
@@ -271,8 +267,7 @@ header {
   box-shadow: -1px 10px 20px rgb(156, 156, 156);
   cursor: pointer;
   margin-top: 30px;
-  
-}    
+}
 
 footer {
   height: 100px;
