@@ -13,8 +13,13 @@ body {
   background-color: var(--light-pink) !important;
 }
 
+.cuidadores {
+  min-height: calc(100vh - 100px);
+}
+
 header {
   height: 100px;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,17 +72,6 @@ header {
   font-size: 1.3rem;
 }
 
-#header-my-information {
-  display: none;
-  width: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: var(--body-font);
-  font-weight: 600;
-  font-size: 1.3rem;
-}
-
 .header-content-login a {
   text-decoration: none;
   color: var(--dark-blue);
@@ -96,159 +90,11 @@ header {
   cursor: pointer;
 }
 
-.register-pet {
-  padding: 2% 0 0 4%;
-  height: calc(100vh - 200px);
+.cuidadores {
+  padding: 7% 0 0 4%;
 }
 
-.register-pet-button {
-  height: 50px;
-  font-family: var(--body-font);
-  font-weight: 600;
-  border: none;
-  background-color: var(--primary-yellow);
-  font-size: 1.3rem;
-  border-radius: 15px;
-  box-shadow: -1px 10px 20px rgb(156, 156, 156);
-  cursor: pointer;
-}
-
-.modal {
-  --bs-modal-width: 1000px !important;
-  --bs-modal-height: 1000px !important;
-}
-
-.page-content-form-container {
-  width: 80%;
-  margin: 20px auto;
-  border-radius: 15px;
-  display: flex;
-}
-
-.page-content-form-title {
-  width: 30%;
-  min-height: 600px;
-  background-color: var(--primary-yellow);
-  border-radius: 15px 0 0 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  grid-gap: 2rem;
-}
-
-.edit-form-title {
-  font-family: var(--body-font);
-  color: var(--dark-blue);
-  font-weight: 600;
-  font-size: 1.2rem;
-}
-
-.edit-form-title-logo {
-  width: 100px;
-}
-
-.page-content-form {
-  width: 80%;
-}
-
-.edit-form {
-  padding: 4rem;
-  display: none;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.input-group {
-  display: flex;
-  justify-content: space-between;
-}
-
-.edit-input {
-  background-color: #ededed;
-  outline: none;
-  border-radius: none;
-  border: none;
-  width: 400px;
-  height: 55px;
-  padding: 0 10px;
-  font-size: 1rem;
-  font-family: var(--body-font);
-}
-
-.edit-number-input,
-.edit-state-input {
-  width: 150px;
-}
-
-.edit-complement-input,
-.edit-neighborhood-input,
-.edit-city-input,
-.edit-country-input {
-  width: 300px;
-}
-
-.edit-image-input {
-  width: calc(100% - 20px);
-}
-
-.edit-description-input {
-  width: calc(100% - 20px);
-  display: none;
-}
-
-.edit-button-submit-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-
-.page-content-form-logged-out {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30%;
-  margin-left: 10%;
-}
-
-.logged-out-info-pet-form {
-  font-family: var(--body-font);
-  font-weight: 600;
-  color: var(--dark-blue);
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.register-big-button {
-  width: 180px;
-  height: 65px;
-  font-family: var(--body-font);
-  font-weight: 600;
-  border: none;
-  background-color: var(--primary-yellow);
-  font-size: 1.5rem;
-  border-radius: 15px;
-  box-shadow: -1px 10px 20px rgb(156, 156, 156);
-  cursor: pointer;
-  margin-top: 30px;
-}
-
-.edit-button-submit {
-  width: 100%;
-  height: 55px;
-  font-family: var(--body-font);
-  font-weight: 600;
-  border: none;
-  background-color: var(--primary-yellow);
-  color: var(--dark-blue);
-  font-size: 1.3rem;
-  border-radius: 15px;
-  cursor: pointer;
-  margin-right: 18px;
-}
-
-.list-lost-pets {
+.list-cuidadores {
   padding: 4% 0 0 0;
 }
 
@@ -260,13 +106,14 @@ header {
 
 .active {
   width: 500px;
-  min-height: 500px;
+  min-height: 350px;
   background-color: var(--primary-yellow);
   margin: auto 60px 100px 0;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
   padding: 1rem;
 }
 
@@ -282,9 +129,9 @@ header {
   justify-content: center;
   align-items: center;
   color: var(--dark-blue);
-  font-family: var(--body-font);
+  font-family: var(--logo-font);
   margin: 5px 0 5px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 footer {
