@@ -98,7 +98,7 @@ header {
 
 .register-pet {
   padding: 2% 0 0 4%;
-  height: calc(100vh - 200px);
+  min-height: calc(100vh - 200px);
 }
 
 .register-pet-button {

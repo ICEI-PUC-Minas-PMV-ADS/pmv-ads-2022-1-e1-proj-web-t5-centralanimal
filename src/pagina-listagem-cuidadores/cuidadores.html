@@ -41,9 +41,50 @@
 
     <div class="page-content">
       <div class="cuidadores">
-        <div class="list-cuidadores
-        ">
-        <div id="boxVet"></div>
+        <div class="list-cuidadores">
+        <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div id="boxVet"></div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Informaões Gerais</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            <div class="modal-enterprise-form-container">
+              
+              <div class="modal-enterprise-form-title">
+              <img class="modal-enterprise-img" src="/docs/img/logo.png" alt="" />
+                <h2 class="modal-enterprise-edit-form-title">Informações do Pet</h2>
+                <p class="modal-enterprise-text">bla, bla, bla</p>
+                <img class="modal-enterprise-title-logo" src="/docs/img/logo.png" alt="" />
+              </div>
+
+              <div class="page-content-form">
+                <form id="edit-form" class="edit-form">
+                  <div class="input-group" >
+                    <input
+                    placeholder="Nome"
+                    id="edit-name-input"
+                    class="edit-input edit-image-input"
+                    required
+                    />
+                    <div class="modal-enterprise-btn">
+                      <button class="modal-enterprise-btn-save-comentario">Comentar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
       </div>
     </div>
 
