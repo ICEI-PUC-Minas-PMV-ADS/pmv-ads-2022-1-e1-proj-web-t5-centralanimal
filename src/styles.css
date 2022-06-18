@@ -137,6 +137,12 @@ header {
   align-items: center;
 }  
 
+.img-vets a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+
 .png-vets{
   display: flex;
   justify-content: center;
@@ -167,6 +173,12 @@ header {
 }
 
 .img-pet-shop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-pet-shop a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,6 +217,12 @@ header {
   justify-content: center;
   align-items: center;
 }    
+
+.img-hotels a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   
 
 .png-hotels{
   display: flex;

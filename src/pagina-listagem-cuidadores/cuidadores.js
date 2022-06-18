@@ -1,5 +1,5 @@
 const registers = JSON.parse(localStorage.getItem("registered"));
-const petShops = registers.filter((item) => item.service === "Cuidador");
+const cuidadores = registers.filter((item) => item.service === "Cuidador");
 
 let adinionaCardPet = (data) => {
   let card = document.createElement("div");
@@ -9,6 +9,6 @@ let adinionaCardPet = (data) => {
   document.getElementById("boxVet").appendChild(card).classList.add("active");
 };
 
-petShops.forEach((element) => {
+cuidadores.forEach((element) => {
   adinionaCardPet(element);
 });
