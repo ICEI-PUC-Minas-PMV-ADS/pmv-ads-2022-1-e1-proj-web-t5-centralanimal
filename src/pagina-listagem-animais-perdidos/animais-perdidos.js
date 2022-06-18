@@ -25,6 +25,12 @@ if (loggedUser) {
   document.getElementById("edit-form").style.display = "flex";
   document.getElementById("page-content-form-logged-out").style.display =
     "none";
+  document
+    .getElementById("header-content-logo-link-logo")
+    .setAttribute("href", "../pagina-inicial/pagina-inicial.html");
+  document
+    .getElementById("header-content-logo-link-title")
+    .setAttribute("href", "../pagina-inicial/pagina-inicial.html");
 } else {
   document.getElementById("header-content-login").style.display = "flex";
   document.getElementById("header-my-information").style.display = "none";
