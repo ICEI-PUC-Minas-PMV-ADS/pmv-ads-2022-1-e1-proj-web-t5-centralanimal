@@ -111,3 +111,22 @@ document.getElementById("header-logout").addEventListener("click", logout);
 function logout() {
   localStorage.removeItem("login");
 }
+
+document
+  .getElementById("close-account")
+  .addEventListener("click", closeAccount);
+
+function closeAccount() {
+  const shouldCloseAccount = confirm("Deseja realmente excluir sua conta?");
+
+  if (shouldCloseAccount) {
+    const index = registers.map((item) => item.id).indexOf(loggedUser.id);
+    registers.splice(index, 1);
+    const newRegisters = registers;
+    localStorage.removeItem("registered");
+    localStorage.setItem("registered", JSON.stringify(newRegisters));
+    localStorage.removeItem("login");
+    location.href = "../index.html";
+    alert("Sua conta foi excluída!");
+  }
+}
