@@ -25,8 +25,10 @@ const ongs = registers.filter((item) => item.service === "ONG");
 
 let adinionaCardPet = (data) => {
   let card = document.createElement("div");
+  card.id = data.id;
+  card.addEventListener("click", getCardId);
 
-  card.innerHTML = `<img class="activeIMg" src=${data.image}> <p class="activeText">${data.name}</p>`;
+  card.innerHTML = `<img class="activeIMg" id=${data.id} src=${data.image}> <p id=${data.id} class="activeText">${data.name}</p>`;
 
   document.getElementById("boxVet").appendChild(card).classList.add("active");
 };
@@ -34,3 +36,7 @@ let adinionaCardPet = (data) => {
 ongs.forEach((element) => {
   adinionaCardPet(element);
 });
+
+function getCardId(event) {
+  console.log(event.target.id);
+}
