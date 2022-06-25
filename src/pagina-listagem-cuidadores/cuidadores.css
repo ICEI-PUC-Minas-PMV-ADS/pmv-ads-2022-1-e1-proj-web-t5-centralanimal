@@ -127,7 +127,6 @@ header {
 
 .modal-enterprise-form-container {
   width: 100%;
-  margin: 40px 50px;
   border-radius: 15px;
   display: flex;
   height: 700px;
@@ -165,7 +164,11 @@ header {
   align-self: center;
 }
 
-.edit-form {
+.page-content-form {
+  overflow-y: scroll;
+}
+
+.comment-form {
   padding: 4rem;
   flex-direction: column;
   gap: 2rem;
@@ -178,7 +181,7 @@ header {
   width: 90% !important;
 }
 
-#edit-name-input {
+#comment-input {
   background-color: white;
   outline: none;
   border: 4px solid #e2e2e2;
@@ -190,8 +193,46 @@ header {
   font-family: var(--body-font);
 }
 
+.select-input-label {
+  font-family: var(--body-font);
+  color: var(--dark-blue);
+}
+
+#organization-scores {
+  background-color: white;
+  outline: none;
+  border: 4px solid #e2e2e2;
+  border-radius: 1vh;
+}
+
+.comment-card {
+  background-color: #ededed;
+  border-radius: 1vh;
+  padding: 5px;
+  margin: 10px;
+  color: var(--dark-blue);
+  font-family: var(--body-font);
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-comment {
+  font-weight: 600;
+}
+
+.comment-delete {
+  align-self: flex-end;
+  color: #969696;
+  font-weight: 600;
+  font-size: 0.5drem;
+  cursor: pointer;
+}
+
 .modal-enterprise-btn {
+  width: 700px;
   margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .modal-enterprise-btn-save-comentario {
