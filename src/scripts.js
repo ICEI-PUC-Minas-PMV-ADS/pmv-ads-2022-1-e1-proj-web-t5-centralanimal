@@ -22,8 +22,6 @@ function logout() {
   localStorage.removeItem("login");
 }
 
-console.log(lostPets);
-
 const valoresIniciaisRegistros = [
   {
     address: {
