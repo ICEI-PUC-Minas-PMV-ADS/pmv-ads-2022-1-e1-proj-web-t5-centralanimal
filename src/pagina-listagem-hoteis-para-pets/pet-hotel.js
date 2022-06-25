@@ -66,17 +66,3 @@ document.getElementById("header-logout").addEventListener("click", logout);
 function logout() {
   localStorage.removeItem("login");
 }
-
-let lines = gets().split("\n");
-var N = parseInt(lines.shift());
-
-function gets(N) {
-  for (let i = 1; i <= N; i++) {
-    if (i % 2 === 0) {
-      let R = i * i;
-      console.log(`${i}^2 = ${R}`);
-    }
-  }
-}
-
-gets(5);

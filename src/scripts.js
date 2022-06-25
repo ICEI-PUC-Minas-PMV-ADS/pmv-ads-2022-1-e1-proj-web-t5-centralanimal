@@ -253,10 +253,10 @@ const valoresIniciaisRegistros = [
     email: "vettcenter.rm@gmail.com",
     id: "16557728717930",
     image:
-      "https://lh3.googleusercontent.com/PSrZQOVIBp0E0KmKfeWHJV_mGa646IRU8Xcc9JcZKIV3-hK94gRmM1NzQSROJP_EwiOIHhmX9wM5gvsNOnYG5IA=w16383",
+      "https://scontent-gig2-1.xx.fbcdn.net/v/t39.30808-6/273608471_323603993115245_2950731826910323236_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=qVz4qU7oeccAX8gqIaK&_nc_ht=scontent-gig2-1.xx&oh=00_AT8esXj2kmo27shiv3LS0LkBy2NXq6NMcPCuugroG4NChQ&oe=62BB8A3B",
     isOrganization: true,
     lostPets: [],
-    name: "Clínica Veterinária VettCenter",
+    name: "Clínica Veterinária VetCenter",
     password: "123",
     phoneNumber: "(21) 2649-2453",
     service: "clinica-veterinaria",
