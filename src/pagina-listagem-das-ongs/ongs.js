@@ -9,9 +9,16 @@ if (loggedUser) {
   document
     .getElementById("header-content-logo-link-title")
     .setAttribute("href", "../pagina-inicial/pagina-inicial.html");
+  document.getElementById("page-content-logged").style.display = "block";
+  document.getElementById("page-content-form-logged-out").style.display =
+    "none";
 } else {
   document.getElementById("header-content-login").style.display = "flex";
   document.getElementById("header-my-information").style.display = "none";
+  document.getElementById("page-content-logged").style.display = "none";
+  document.getElementById("page-content-form-logged-out").style.display =
+    "block";
+  document.getElementById("page-content-form").style.overflowY = "hidden";
 }
 
 document.getElementById("header-logout").addEventListener("click", logout);

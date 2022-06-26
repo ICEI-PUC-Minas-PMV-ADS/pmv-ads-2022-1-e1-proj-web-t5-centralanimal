@@ -11,6 +11,7 @@ if (loggedUser) {
   document
     .getElementById("header-content-logo-link-title")
     .setAttribute("href", "./pagina-inicial/pagina-inicial.html");
+  document.getElementById("info-ong").style.display = "none";
 } else {
   document.getElementById("header-content-login").style.display = "flex";
   document.getElementById("header-my-information").style.display = "none";
