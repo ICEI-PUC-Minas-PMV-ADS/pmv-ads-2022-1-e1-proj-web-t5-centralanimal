@@ -20,11 +20,8 @@ let adinionaCardAnimaisPerdidos = (data) => {
 };
 
 animaisPerdidos.reverse().forEach((element) => {
-  let cont = 0;
   element.lostPets.forEach((el) => {
-    if(cont < 2)
-      adinionaCardAnimaisPerdidos(el);
-    cont ++;
+    adinionaCardAnimaisPerdidos(el);
   });
 });
 
