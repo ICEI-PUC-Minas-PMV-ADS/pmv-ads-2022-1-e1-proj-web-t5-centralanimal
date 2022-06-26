@@ -192,7 +192,8 @@ header {
   font-size: 1rem;
   border-radius: 15px;
   cursor: pointer;
-  margin-left: 4rem;
+  margin-right: 60%;
+  margin-bottom: 3%;
 }
 
 /* Footer */
