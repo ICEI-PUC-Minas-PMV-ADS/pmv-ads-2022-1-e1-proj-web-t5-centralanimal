@@ -49,8 +49,15 @@
           <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             <div id="boxVet"></div>
           </a>
+        </div>
       </div>
-    </div>
+
+          <footer class="footer">
+            <div class="footer-content">
+              <img class="footer-logo-img" src="../../docs/img/logo.png" alt="" />
+              <h1 class="footer-logo-title">Central Animal</h1>
+            </div>
+          </footer>
 
 
     <!-- Modal -->
@@ -59,7 +66,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="staticBackdropLabel">Informaões Gerais</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" id="btn-close" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
 
@@ -77,32 +84,39 @@
               </div>
 
               <div class="page-content-form">
-                <form id="edit-form" class="edit-form">
+                <form id="comment-form" class="comment-form">
                   <div class="input-group" >
                     <input
-                    placeholder="Nome"
-                    id="edit-name-input"
-                    class="edit-input edit-image-input"
+                    placeholder="Deixei seu comentário..."
+                    id="comment-input"
+                    class="comment-input"
                     required
                     />
                     <div class="modal-enterprise-btn">
-                      <button class="modal-enterprise-btn-save-comentario">Comentar</button>
+                      <div id="select-score-input">
+                        <label for="service" class="select-input-label"
+                          >Nota:</label
+                        >
+                        <select name="score" id="organization-scores" required>
+                          <option value=""></option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                        </select>
+                      </div>
+                      <button id="modal-enterprise-btn-save-comentario" class="modal-enterprise-btn-save-comentario">Comentar</button>
                     </div>
                   </div>
-                </div>
+                </form>
+                <ul id="comment-list" ></ul>
               </div>
 
           </div>
         </div>
       </div>
     </div>
-
-    <footer class="footer">
-      <div class="footer-content">
-        <img class="footer-logo-img" src="../../docs/img/logo.png" alt="" />
-        <h1 class="footer-logo-title">Central Animal</h1>
-      </div>
-    </footer>
     <script src="./veterinarios.js"></script>
   </body>
 </html>
