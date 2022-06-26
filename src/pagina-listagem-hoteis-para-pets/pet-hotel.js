@@ -29,7 +29,8 @@ let adinionaCardPet = (data) => {
   card.id = data.id;
   card.addEventListener("click", getCardId);
 
-  card.innerHTML = `<img class="activeIMg" id=${data.id} src=${data.image}> <p id=${data.id} class="activeText">${data.name}</p>`;
+  card.innerHTML = `<a class="activeLink" href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  <img class="activeIMg" id=${data.id} src=${data.image}></a> <p id=${data.id} class="activeText">${data.name}</p>`;
 
   document.getElementById("boxVet").appendChild(card).classList.add("active");
 };
