@@ -17,6 +17,12 @@ body {
   min-height: calc(100vh - 200px);
 }
 
+.page-content-page-title {
+  font-family: var(--logo-font);
+  color: var(--dark-blue);
+  font-size: 3rem;
+}
+
 header {
   height: 100px;
   display: flex;

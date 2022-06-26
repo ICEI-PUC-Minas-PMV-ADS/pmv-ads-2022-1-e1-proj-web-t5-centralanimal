@@ -101,6 +101,12 @@ header {
   padding: 7% 0 0 4%;
 }
 
+.page-content-page-title {
+  font-family: var(--logo-font);
+  color: var(--dark-blue);
+  font-size: 3rem;
+}
+
 .list-hoteis-para-pets {
   padding: 4% 0 0 0;
 }
