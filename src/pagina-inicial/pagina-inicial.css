@@ -106,8 +106,107 @@ header {
 }
 
 .page-content {
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
 }
+
+
+/* listagem gerais */
+
+.listagem-geral {
+  padding: 7% 0 0 4%;
+}
+
+.list-listagem-geral {
+  padding: 4% 0 0 0;
+}
+
+.list-listagem-geral h1{
+  margin-bottom: 20px;
+  font-family: var(--logo-font);
+  color: var(--dark-blue);
+  font-size: 25px;
+}
+
+.box{
+  width: 80%;
+  display: flex;
+  margin: 0 0 50px 0;
+}
+
+#box-vet-animais-perdidos {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#box-vet-clinicas-veterinarias {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#box-vet-pets-shops {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#box-vet-hoteis {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#box-vet-cuidador {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#box-vet-ong {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.ver-mais{
+  display: flex;
+  justify-content: end;
+  font-family: var(--logo-font);
+  color: var(--dark-blue);
+  align-items: flex-end;
+}
+
+.active {
+  background-color: var(--primary-yellow);
+  margin: auto 30px 20px 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.activeIMg {
+  border-radius: 15px;
+  width: 300px;
+  height: 150px;
+  align-self: center;
+  margin: 1rem;
+}
+
+.activeText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-blue);
+  font-family: var(--logo-font);
+  margin: 5px 0 5px 0;
+  font-size: 1.2rem;
+}
+
+/* listagem gerias */
 
 footer {
   height: 100px;

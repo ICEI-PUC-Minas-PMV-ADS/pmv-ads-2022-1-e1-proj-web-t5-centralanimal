@@ -14,7 +14,6 @@ Também é um meio onde empresas voltadas para o atendimento à animais possam d
 
 - Marcus Vinicius Marinho Ferreira
 - Amanda Eufrasio Cacholi
-- Daniel Silva dos Santos
 - Sandra Matos Rodrigues
 
 ## Orientador
