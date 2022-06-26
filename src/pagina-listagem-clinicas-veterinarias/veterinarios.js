@@ -29,6 +29,10 @@ let adinionaCardPet = (data) => {
   card.id = data.id;
   card.addEventListener("click", getCardId);
 
+  if(data.image == ""){
+    data.image = "https://sintep.org.br/sintep/admin/uploads/arquivos/1634930642sem-foto.png";
+  }
+
   card.innerHTML = `<a class="activeLink" href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
   <img class="activeIMg" id=${data.id} src=${data.image}></a> <p id=${data.id} class="activeText">${data.name}</p>`;
 
