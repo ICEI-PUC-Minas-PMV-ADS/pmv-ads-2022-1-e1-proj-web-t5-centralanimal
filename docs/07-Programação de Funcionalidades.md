@@ -181,6 +181,44 @@ Instruções de acesso
 5. Adicionar novas informações
 6. Conferir se novas informações foram salvas no local storage
 
+- Modal com detalhes sobre organizações e comentários
+
+> Feito por: Amanda Cacholi e Marcus Vinícius
+
+![Modal logado](img/org-details-logged.png)
+![Modal não logado](img/org-details-not-logged.png)
+
+Requisitos atendidos
+
+- RF-06
+- RF-08
+- RF-09
+
+Artefatos da funcionalidade
+
+- animais-perdidos.html
+- animais-perdidos.css
+- animais-perdidos.js
+- veterinarios.html
+- veterinarios.css
+- veterinarios.js
+- orgs.html
+- orgs.css
+- orgs.js
+- pet-hotel.html
+- pet-hotel.css
+- pet-hotel.js
+- pet-shops.html
+- pet-shops.css
+- pet-shops.js
+
+Instruções de acesso
+
+1. Abrir index.html
+2. Clicar em algum dos serviços oferecidos
+3. Clicar em uma organização para abrir o modal
+4. Para visualizar os comentários e fazer comentários é necessário estar logado
+
 - Tela "Quem somos"
 
 > Feito por: Marcus Vinicius
