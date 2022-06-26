@@ -128,45 +128,34 @@ header {
 }
 
 .box{
-  width: 80%;
+  width: 100%;
   display: flex;
   margin: 0 0 50px 0;
-}
-
-#box-vet-animais-perdidos {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 #box-vet-clinicas-veterinarias {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 #box-vet-pets-shops {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 #box-vet-hoteis {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 #box-vet-cuidador {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 #box-vet-ong {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 .ver-mais{
@@ -178,6 +167,7 @@ header {
 }
 
 .active {
+  min-height: 200px;
   background-color: var(--primary-yellow);
   margin: auto 30px 20px 0;
   border-radius: 15px;
@@ -191,9 +181,10 @@ header {
 .activeIMg {
   border-radius: 15px;
   width: 300px;
-  height: 150px;
+  max-height: 150px;
   align-self: center;
-  margin: 1rem;
+  /* margin: 1rem; */
+  margin: auto;
 }
 
 .activeText {
