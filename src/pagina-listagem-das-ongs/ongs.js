@@ -34,9 +34,10 @@ let adinionaCardPet = (data) => {
   let card = document.createElement("div");
   card.id = data.id;
   card.addEventListener("click", getCardId);
-  
-  if(data.image == ""){
-    data.image = "https://sintep.org.br/sintep/admin/uploads/arquivos/1634930642sem-foto.png";
+
+  if (data.image == "") {
+    data.image =
+      "https://sintep.org.br/sintep/admin/uploads/arquivos/1634930642sem-foto.png";
   }
 
   card.innerHTML = `<a class="activeLink" href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -73,13 +74,13 @@ function getCardId(event) {
   companyDescription.innerText = org.description;
   companyPhone.innerText = `Telefone: ${org.phoneNumber}`;
   companyEmail.innerText = `Email: ${org.email}`;
-  companyAddress.innerText = `Endereço: ${org.address.address}, ${
-    org.address.number
-  } - ${org.address.complement ? `${org.address.complement}.` : ""} ${
-    org.address.neighborhood
-  }, ${org.address.city} - ${org.address.state} ${org.address.country} - ${
-    org.address.zipCode
-  }`;
+  companyAddress.innerText = org.address.address
+    ? `Endereço: ${org.address.address}, ${org.address.number} - ${
+        org.address.complement ? `${org.address.complement}.` : ""
+      } ${org.address.neighborhood}, ${org.address.city} - ${
+        org.address.state
+      } ${org.address.country} - ${org.address.zipCode}`
+    : "Endereço:";
   companyImage.setAttribute("src", org.image);
   companyDocument.innerText = org.cnpj;
 
