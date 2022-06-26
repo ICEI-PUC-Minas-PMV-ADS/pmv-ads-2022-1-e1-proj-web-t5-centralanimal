@@ -9,23 +9,21 @@ let incluirValoresParaLista = (objOrg, divDaListagem) =>{
   let adinionaCardClinicasVeterinarias = (data) => {
     let card = document.createElement("div");
     card.id = data.id;
-  
-    card.innerHTML = `<img class="activeIMg" id=${data.id} src=${data.image}>
-    <p id=${data.id} class="activeText">${data.name}</p>`;
-  
+    card.innerHTML = `<img class="activeIMg" id=${data.id} src=${data.image}> <p id=${data.id} class="activeText">${data.name}</p>`;
     document.getElementById(divDaListagem).appendChild(card).classList.add("active");
   };
 
-  let cont = 0;
-  if(cont < 5){
-    arrayDeOrganizacoes.reverse().forEach((element) => {
+  var contador = 0;
+  arrayDeOrganizacoes.reverse().forEach((element) => {
+    if(contador<4){
       adinionaCardClinicasVeterinarias(element);
-      cont++
-    });
-  }
+    }
+    contador++
+  });
+
 }
 
-const arrayDeAtribuiicoesOrgs = ["clinica-veterinaria", "box-vet-clinicas-veterinarias", "pet-shop", "box-vet-pets-shops", "pet-hotel", "box-vet-hoteis", "Cuidador", "box-vet-cuidador", "ONG", "box-vet-ong" ]
+const arrayDeAtribuiicoesOrgs = ["clinica-veterinaria", "box-vet-clinicas-veterinarias", "pet-shop", "box-vet-pets-shops", "pet-hotel", "box-vet-hoteis", "Cuidador", "box-vet-cuidador", "ONG", "box-vet-ong" ];
 
 for(var i = 0; i < arrayDeAtribuiicoesOrgs.length; i+=2){
   incluirValoresParaLista(arrayDeAtribuiicoesOrgs[i], arrayDeAtribuiicoesOrgs[i+1]);
