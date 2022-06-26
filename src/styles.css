@@ -208,7 +208,7 @@ header {
 .hotels {
   display: flex;
   width: 90%;
-  margin: auto;
+  margin: 0 auto 100px;
 }
 
 .img-hotels {
