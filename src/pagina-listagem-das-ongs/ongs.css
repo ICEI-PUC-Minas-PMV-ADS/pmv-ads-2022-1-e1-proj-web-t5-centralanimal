@@ -247,7 +247,7 @@ header {
 }
 
 .active {
-  width: 500px;
+  width: 400px;
   min-height: 350px;
   background-color: var(--primary-yellow);
   margin: auto 60px 100px 0;
@@ -261,9 +261,10 @@ header {
 
 .activeIMg {
   border-radius: 15px;
-  width: 400px;
+  width: 300px;
   align-self: center;
   margin: 1rem;
+  margin: auto;
 }
 
 .activeText {
