@@ -10,6 +10,10 @@ Uma plataforma que centraliza informações para facilitar a vida dos pais de pe
 
 Também é um meio onde empresas voltadas para o atendimento à animais possam divulgar seu trabalho e expandir seu alcance.
 
+#Link para ter acesso ao nosso projeto:
+
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t5-centralanimal/src/index.html
+
 ## Integrantes
 
 - Marcus Vinicius Marinho Ferreira
@@ -20,9 +24,6 @@ Também é um meio onde empresas voltadas para o atendimento à animais possam d
 
 - Professora Simone Alves Nogueira
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
 # Documentação
 
