@@ -1,3 +1,5 @@
 # Apresentação da Solução
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+[Apresentação de slides](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-centralanimal/blob/docs/adicionar-slides/presentation/Central-Animal.pdf)
+
+[Apresentação do Video](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-centralanimal/blob/main/presentation/Central%20Animal%20-%20Google%20Chrome%202022-06-26%2020-47-47.mp4)
