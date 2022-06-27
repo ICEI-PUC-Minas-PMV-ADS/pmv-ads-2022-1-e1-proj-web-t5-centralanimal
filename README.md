@@ -10,7 +10,7 @@ Uma plataforma que centraliza informações para facilitar a vida dos pais de pe
 
 Também é um meio onde empresas voltadas para o atendimento à animais possam divulgar seu trabalho e expandir seu alcance.
 
-#Link para ter acesso ao nosso projeto:
+# Link para ter acesso ao nosso projeto:
 
 https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t5-centralanimal/src/index.html
 
