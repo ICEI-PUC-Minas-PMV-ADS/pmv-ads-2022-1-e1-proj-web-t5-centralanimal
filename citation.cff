@@ -1,0 +1,18 @@
+message: Please cite this software using these metadata.
+title: Hysteria Studio
+authors:
+  - family-names: Eufrasio Cacholi
+    given-names: Amanda
+  - family-names: Marinho Ferreira
+    given-names: Marcus Vinicius
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves Nogueira
+    given-names: Simone
+keywords:
+  - Gestão
+  - Biblioteca
+  - Livros
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-centralanimal
+version: 1.0.0
+date-released: 2022-06-23
