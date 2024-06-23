@@ -1,10 +1,12 @@
 message: Please cite this software using these metadata.
-title: Hysteria Studio
+title: Central Animal
 authors:
   - family-names: Eufrasio Cacholi
     given-names: Amanda
   - family-names: Marinho Ferreira
     given-names: Marcus Vinicius
+  - family-names: Matos Rodrigues
+    given-names: Sandra
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Alves Nogueira
