@@ -10,9 +10,9 @@ authors:
     family-names: Alves Nogueira
     given-names: Simone
 keywords:
+  - Veterinária
+  - Animais
   - Gestão
-  - Biblioteca
-  - Livros
 repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-centralanimal
 version: 1.0.0
 date-released: 2022-06-23
